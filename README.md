@@ -31,6 +31,20 @@ mlb/pitcher_strikeouts/  MLB starting-pitcher strikeout projections — same pat
 New sports/markets appear as folders **only when real predictions exist for them** — no empty
 scaffolds, no implied records.
 
+### One more filename, for honesty
+
+`YYYY-MM-DD.json` means exactly one thing: **committed before that day's games started.**
+
+The export runs on a home server, and a server can be down at 10:50 in the morning. When a day
+gets exported *after* its games — a recovered run — the file is named `YYYY-MM-DD.late.json`
+instead, and says so inside (`"late": true`). We could have written it under the normal name and
+said nothing; not doing that is the entire point of this repo. If you are checking our work, a
+`.late.json` file is a record, not evidence: its commit came after the games, and the name tells
+you so before you open it.
+
+If a market ever publishes twice in one day, the second batch lands in `YYYY-MM-DD.2.json`. The
+first file is never reopened.
+
 ## What the numbers are (and are not)
 
 Every row is a **projection, not a pick**. We publish our model's independent number beside the
