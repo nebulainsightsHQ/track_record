@@ -1,0 +1,75 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "mlb_k",
+  "date_et": "2026-07-28",
+  "models": [
+    "mlb_k_props_v1"
+  ],
+  "exported_at_utc": "2026-07-28T14:50:03.951804Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 2,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "824490:677944",
+      "game_date": "2026-07-27",
+      "away": "CLE",
+      "home": "CIN",
+      "away_name": "Cleveland Guardians",
+      "home_name": "Cincinnati Reds",
+      "label": "Slade Cecconi (CLE) Ks vs CIN",
+      "proj_value": 4.35,
+      "proj_prob": null,
+      "market_value": 4.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-07-28T14:30:48.635888Z",
+      "graded_at": null,
+      "extra": {
+        "team": "CLE",
+        "season": 2026,
+        "is_home": false,
+        "n_books": 7,
+        "pitcher": "Slade Cecconi",
+        "opponent": "CIN",
+        "pitcher_id": 677944
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "824490:695505",
+      "game_date": "2026-07-27",
+      "away": "CLE",
+      "home": "CIN",
+      "away_name": "Cleveland Guardians",
+      "home_name": "Cincinnati Reds",
+      "label": "Chase Burns (CIN) Ks vs CLE",
+      "proj_value": 6.81,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-07-28T14:30:48.635888Z",
+      "graded_at": null,
+      "extra": {
+        "team": "CIN",
+        "season": 2026,
+        "is_home": true,
+        "n_books": 6,
+        "pitcher": "Chase Burns",
+        "opponent": "CLE",
+        "pitcher_id": 695505
+      }
+    }
+  ]
+}
