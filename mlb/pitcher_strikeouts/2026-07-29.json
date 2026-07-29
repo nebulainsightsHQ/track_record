@@ -1,0 +1,75 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "mlb_k",
+  "date_et": "2026-07-29",
+  "models": [
+    "mlb_k_props_v1"
+  ],
+  "exported_at_utc": "2026-07-29T14:50:03.503189Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 2,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "823598:519242",
+      "game_date": "2026-07-28",
+      "away": "ATL",
+      "home": "NYM",
+      "away_name": "Atlanta Braves",
+      "home_name": "New York Mets",
+      "label": "Chris Sale (ATL) Ks vs NYM",
+      "proj_value": 6.57,
+      "proj_prob": null,
+      "market_value": 7.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-07-29T14:30:50.257809Z",
+      "graded_at": null,
+      "extra": {
+        "team": "ATL",
+        "season": 2026,
+        "is_home": false,
+        "n_books": 6,
+        "pitcher": "Chris Sale",
+        "opponent": "NYM",
+        "pitcher_id": 519242
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "823598:681035",
+      "game_date": "2026-07-28",
+      "away": "ATL",
+      "home": "NYM",
+      "away_name": "Atlanta Braves",
+      "home_name": "New York Mets",
+      "label": "Christian Scott (NYM) Ks vs ATL",
+      "proj_value": 5.72,
+      "proj_prob": null,
+      "market_value": 5.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-07-29T14:30:50.257809Z",
+      "graded_at": null,
+      "extra": {
+        "team": "NYM",
+        "season": 2026,
+        "is_home": true,
+        "n_books": 7,
+        "pitcher": "Christian Scott",
+        "opponent": "ATL",
+        "pitcher_id": 681035
+      }
+    }
+  ]
+}

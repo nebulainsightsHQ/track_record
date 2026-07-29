@@ -1,0 +1,42 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "mlb_k",
+  "date_et": "2026-07-28",
+  "exported_at_utc": "2026-07-29T14:50:03.537450Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 2,
+  "graded_count": 2,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "824490:677944",
+      "model": "mlb_k_props_v1",
+      "game_date": "2026-07-27",
+      "label": "Slade Cecconi (CLE) Ks vs CIN",
+      "proj_value": 4.35,
+      "proj_prob": null,
+      "market_value": 4.5,
+      "actual_value": 2.0,
+      "result": "graded",
+      "correct": null,
+      "error": 2.35,
+      "graded_at": "2026-07-29T14:30:50.405586Z"
+    },
+    {
+      "entity_key": "824490:695505",
+      "model": "mlb_k_props_v1",
+      "game_date": "2026-07-27",
+      "label": "Chase Burns (CIN) Ks vs CLE",
+      "proj_value": 6.81,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": 4.0,
+      "result": "graded",
+      "correct": null,
+      "error": 2.81,
+      "graded_at": "2026-07-29T14:30:50.530288Z"
+    }
+  ]
+}
