@@ -1,0 +1,42 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "mlb_k",
+  "date_et": "2026-07-29",
+  "exported_at_utc": "2026-07-30T14:50:03.326005Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 2,
+  "graded_count": 2,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "823598:519242",
+      "model": "mlb_k_props_v1",
+      "game_date": "2026-07-28",
+      "label": "Chris Sale (ATL) Ks vs NYM",
+      "proj_value": 6.57,
+      "proj_prob": null,
+      "market_value": 7.5,
+      "actual_value": 9.0,
+      "result": "graded",
+      "correct": null,
+      "error": -2.43,
+      "graded_at": "2026-07-30T14:30:27.055427Z"
+    },
+    {
+      "entity_key": "823598:681035",
+      "model": "mlb_k_props_v1",
+      "game_date": "2026-07-28",
+      "label": "Christian Scott (NYM) Ks vs ATL",
+      "proj_value": 5.72,
+      "proj_prob": null,
+      "market_value": 5.5,
+      "actual_value": 7.0,
+      "result": "graded",
+      "correct": null,
+      "error": -1.28,
+      "graded_at": "2026-07-30T14:30:27.194457Z"
+    }
+  ]
+}
