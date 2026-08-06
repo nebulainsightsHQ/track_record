@@ -1,0 +1,45 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "mlb_k",
+  "date_et": "2026-08-06",
+  "models": [
+    "mlb_k_props_v1"
+  ],
+  "exported_at_utc": "2026-08-06T14:50:03.631279Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "824664:656302",
+      "game_date": "2026-08-06",
+      "away": "TOR",
+      "home": "CHC",
+      "away_name": "Toronto Blue Jays",
+      "home_name": "Chicago Cubs",
+      "label": "Dylan Cease (TOR) Ks vs CHC",
+      "proj_value": 7.81,
+      "proj_prob": null,
+      "market_value": 7.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-08-06T14:30:53.615517Z",
+      "graded_at": null,
+      "extra": {
+        "team": "TOR",
+        "season": 2026,
+        "is_home": false,
+        "n_books": 5,
+        "pitcher": "Dylan Cease",
+        "opponent": "CHC",
+        "pitcher_id": 656302
+      }
+    }
+  ]
+}
