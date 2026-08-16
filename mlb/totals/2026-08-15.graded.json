@@ -3,12 +3,12 @@
   "sport": "mlb",
   "market": "totals",
   "date_et": "2026-08-15",
-  "exported_at_utc": "2026-08-15T22:38:45.413588Z",
+  "exported_at_utc": "2026-08-16T22:23:50.719879Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 12,
-  "graded_count": 3,
-  "complete": false,
+  "graded_count": 12,
+  "complete": true,
   "rows": [
     {
       "entity_key": "1145a9db8d138b13599e168a340ad3c7",
@@ -18,11 +18,11 @@
       "proj_value": 10.6,
       "proj_prob": null,
       "market_value": 9.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 8.0,
+      "result": "Under",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 2.6,
+      "graded_at": "2026-08-16T22:23:41.618484Z"
     },
     {
       "entity_key": "229c4156bb02dc75dc6f247f5380c6ca",
@@ -32,11 +32,11 @@
       "proj_value": 9.25,
       "proj_prob": null,
       "market_value": 7.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 4.0,
+      "result": "Under",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 5.25,
+      "graded_at": "2026-08-16T22:23:42.478244Z"
     },
     {
       "entity_key": "4cbeb5e491e3002fdaa00b7006777419",
@@ -46,11 +46,11 @@
       "proj_value": 8.78,
       "proj_prob": null,
       "market_value": 8.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 10.0,
+      "result": "Over",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -1.22,
+      "graded_at": "2026-08-16T22:23:42.523196Z"
     },
     {
       "entity_key": "5bab26a4a86845bfbf909f59a676a22a",
@@ -60,11 +60,11 @@
       "proj_value": 8.83,
       "proj_prob": null,
       "market_value": 9.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 12.0,
+      "result": "Over",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -3.17,
+      "graded_at": "2026-08-16T22:23:42.655309Z"
     },
     {
       "entity_key": "62943d2963a59424707e551cf46e5987",
@@ -88,11 +88,11 @@
       "proj_value": 9.83,
       "proj_prob": null,
       "market_value": 8.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 15.0,
+      "result": "Over",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -5.17,
+      "graded_at": "2026-08-16T22:23:42.696469Z"
     },
     {
       "entity_key": "70b9a39a05a83f14d55b30a01b17396f",
@@ -102,11 +102,11 @@
       "proj_value": 9.64,
       "proj_prob": null,
       "market_value": 7.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 5.0,
+      "result": "Under",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 4.64,
+      "graded_at": "2026-08-16T22:23:42.782473Z"
     },
     {
       "entity_key": "93719cc1bad0db5bf175f542387ea869",
@@ -116,11 +116,11 @@
       "proj_value": 8.16,
       "proj_prob": null,
       "market_value": 7.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 7.0,
+      "result": "Under",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 1.16,
+      "graded_at": "2026-08-16T22:23:42.917401Z"
     },
     {
       "entity_key": "a9d5955568a03f0891eda9aba40a95f6",
@@ -144,11 +144,11 @@
       "proj_value": 8.39,
       "proj_prob": null,
       "market_value": 8.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 1.0,
+      "result": "Under",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.39,
+      "graded_at": "2026-08-16T22:23:42.962419Z"
     },
     {
       "entity_key": "cbbb7f035af8c6962dbaf7ef81ec594f",
@@ -172,11 +172,11 @@
       "proj_value": 9.31,
       "proj_prob": null,
       "market_value": 8.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 13.0,
+      "result": "Over",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -3.69,
+      "graded_at": "2026-08-16T22:23:43.059206Z"
     }
   ]
 }
