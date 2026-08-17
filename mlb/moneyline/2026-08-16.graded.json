@@ -3,12 +3,12 @@
   "sport": "mlb",
   "market": "moneyline",
   "date_et": "2026-08-16",
-  "exported_at_utc": "2026-08-16T22:23:50.468802Z",
+  "exported_at_utc": "2026-08-17T14:50:08.877647Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 15,
-  "graded_count": 8,
-  "complete": false,
+  "graded_count": 15,
+  "complete": true,
   "rows": [
     {
       "entity_key": "1fb92c4b21dd10a8a1075a624ab98438",
@@ -46,11 +46,11 @@
       "proj_value": null,
       "proj_prob": 0.498,
       "market_value": -108.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "away",
+      "correct": true,
+      "error": 0.498,
+      "graded_at": "2026-08-17T14:12:50.478045Z"
     },
     {
       "entity_key": "3a2403381633c75a1079d5ba12656cac",
@@ -74,11 +74,11 @@
       "proj_value": null,
       "proj_prob": 0.455,
       "market_value": -120.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "home",
+      "correct": false,
+      "error": -0.545,
+      "graded_at": "2026-08-17T14:12:51.442959Z"
     },
     {
       "entity_key": "43eaf8201a5f300983718f2c0ced6285",
@@ -102,11 +102,11 @@
       "proj_value": null,
       "proj_prob": 0.566,
       "market_value": -135.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "away",
+      "correct": false,
+      "error": 0.566,
+      "graded_at": "2026-08-17T14:12:51.487236Z"
     },
     {
       "entity_key": "4ac1d4b9642e9093871c7d439602a459",
@@ -130,11 +130,11 @@
       "proj_value": null,
       "proj_prob": 0.517,
       "market_value": -172.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "away",
+      "correct": false,
+      "error": 0.517,
+      "graded_at": "2026-08-17T14:12:51.575006Z"
     },
     {
       "entity_key": "5284155e4abb961e855f8786e8ad3d51",
@@ -158,11 +158,11 @@
       "proj_value": null,
       "proj_prob": 0.595,
       "market_value": 118.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "home",
+      "correct": true,
+      "error": -0.405,
+      "graded_at": "2026-08-17T14:12:51.663986Z"
     },
     {
       "entity_key": "79ee109acafadb327efea9802f800779",
@@ -172,11 +172,11 @@
       "proj_value": null,
       "proj_prob": 0.503,
       "market_value": 101.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "away",
+      "correct": false,
+      "error": 0.503,
+      "graded_at": "2026-08-17T14:12:51.753314Z"
     },
     {
       "entity_key": "7cbc2fdbcb76365df956f2fb706f3017",
@@ -186,11 +186,11 @@
       "proj_value": null,
       "proj_prob": 0.524,
       "market_value": -135.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "away",
+      "correct": false,
+      "error": 0.524,
+      "graded_at": "2026-08-17T14:12:51.843221Z"
     },
     {
       "entity_key": "b9ca059d2c11f42fa007c731af1dd7a2",
