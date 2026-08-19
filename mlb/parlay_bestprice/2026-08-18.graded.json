@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_bestprice",
+  "date_et": "2026-08-18",
+  "exported_at_utc": "2026-08-19T14:50:04.000526Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-08-18#1",
+      "model": "bestprice_v1",
+      "game_date": "2026-08-18",
+      "label": "Detroit Tigers (Tigers @ Pirates) + New York Yankees (Yankees @ Orioles)",
+      "proj_value": 4.5108,
+      "proj_prob": 0.2216886,
+      "market_value": 4.5475,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.2216886,
+      "graded_at": "2026-08-19T13:00:22.784757Z"
+    },
+    {
+      "entity_key": "2026-08-18#2",
+      "model": "bestprice_v1",
+      "game_date": "2026-08-18",
+      "label": "Ceddanne Rafaela Under 1.5 (D-backs @ Red Sox) + Nick Martinez Over 3.5 (Blue Jays @ Rays)",
+      "proj_value": 3.6396,
+      "proj_prob": 0.27475212,
+      "market_value": 3.6556,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.72524788,
+      "graded_at": "2026-08-19T13:00:28.441902Z"
+    },
+    {
+      "entity_key": "2026-08-18#3",
+      "model": "bestprice_v1",
+      "game_date": "2026-08-18",
+      "label": "New York Mets (Padres @ Mets) + St. Louis Cardinals (Cardinals @ Reds)",
+      "proj_value": 3.9135,
+      "proj_prob": 0.2555238,
+      "market_value": 3.8614,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.2555238,
+      "graded_at": "2026-08-19T13:00:28.514575Z"
+    }
+  ]
+}
