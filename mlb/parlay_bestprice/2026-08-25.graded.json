@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_bestprice",
+  "date_et": "2026-08-25",
+  "exported_at_utc": "2026-08-26T14:50:04.062117Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-08-25#1",
+      "model": "bestprice_v1",
+      "game_date": "2026-08-25",
+      "label": "Nick Sogard Over 1.5 (Red Sox @ Marlins) + Brady House Over 1.5 (Rockies @ Nationals)",
+      "proj_value": 6.3148,
+      "proj_prob": 0.15835842,
+      "market_value": 6.5025,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.15835842,
+      "graded_at": "2026-08-26T13:00:17.717754Z"
+    },
+    {
+      "entity_key": "2026-08-25#2",
+      "model": "bestprice_v1",
+      "game_date": "2026-08-25",
+      "label": "Ethan Pecko Under 4.5 (Astros @ Yankees) + Cleveland Guardians -1.5 (Guardians @ Angels)",
+      "proj_value": 4.113,
+      "proj_prob": 0.2431306,
+      "market_value": 4.2108,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.7568694,
+      "graded_at": "2026-08-26T13:00:30.740627Z"
+    },
+    {
+      "entity_key": "2026-08-25#3",
+      "model": "bestprice_v1",
+      "game_date": "2026-08-25",
+      "label": "Max Clark Over 0.5 (Rays @ Tigers) + Royce Lewis Over 1.5 (Twins @ Athletics)",
+      "proj_value": 3.9851,
+      "proj_prob": 0.25093617,
+      "market_value": 4.0333,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.74906383,
+      "graded_at": "2026-08-26T13:00:36.783362Z"
+    }
+  ]
+}
