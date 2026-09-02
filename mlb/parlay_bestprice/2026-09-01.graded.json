@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_bestprice",
+  "date_et": "2026-09-01",
+  "exported_at_utc": "2026-09-02T14:50:04.013189Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-09-01#1",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-01",
+      "label": "Under 10.5 (Brewers @ Cubs) + Xander Bogaerts Over 1.5 (Padres @ Reds)",
+      "proj_value": 4.622,
+      "proj_prob": 0.21635579,
+      "market_value": 4.6857,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.21635579,
+      "graded_at": "2026-09-02T13:00:21.856020Z"
+    },
+    {
+      "entity_key": "2026-09-01#2",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-01",
+      "label": "Under 7.5 (Giants @ Pirates) + Steven Kwan Over 1.5 (Blue Jays @ Guardians)",
+      "proj_value": 4.9273,
+      "proj_prob": 0.20295203,
+      "market_value": 4.9075,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.20295203,
+      "graded_at": "2026-09-02T13:00:32.470376Z"
+    },
+    {
+      "entity_key": "2026-09-01#3",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-01",
+      "label": "Jakob Marsee Under 1.5 (Marlins @ Royals) + Mauricio Dubon Over 1.5 (Braves @ Nationals)",
+      "proj_value": 3.776,
+      "proj_prob": 0.26482814,
+      "market_value": 3.7375,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.26482814,
+      "graded_at": "2026-09-02T13:00:37.501781Z"
+    }
+  ]
+}
