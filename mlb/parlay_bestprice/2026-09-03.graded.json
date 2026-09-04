@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_bestprice",
+  "date_et": "2026-09-03",
+  "exported_at_utc": "2026-09-04T14:50:03.350631Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-09-03#1",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-03",
+      "label": "Corey Seager Over 1.5 (Rays @ Rangers) + William Contreras Under 1.5 (Brewers @ Cubs)",
+      "proj_value": 4.0328,
+      "proj_prob": 0.24796864,
+      "market_value": 4.1143,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.75203136,
+      "graded_at": "2026-09-04T13:00:29.657887Z"
+    },
+    {
+      "entity_key": "2026-09-03#2",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-03",
+      "label": "Baltimore Orioles (Red Sox @ Orioles) + Cleveland Guardians (Blue Jays @ Guardians)",
+      "proj_value": 4.1697,
+      "proj_prob": 0.23982558,
+      "market_value": 4.139,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.23982558,
+      "graded_at": "2026-09-04T13:00:35.336250Z"
+    },
+    {
+      "entity_key": "2026-09-03#3",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-03",
+      "label": "Sandy Alcantara Under 3.5 (Marlins @ Royals) + Colson Montgomery Over 0.5 (White Sox @ Astros)",
+      "proj_value": 4.3585,
+      "proj_prob": 0.22943623,
+      "market_value": 4.2955,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.22943623,
+      "graded_at": "2026-09-04T13:00:39.855863Z"
+    }
+  ]
+}
