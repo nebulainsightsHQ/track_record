@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-09-04",
+  "exported_at_utc": "2026-09-05T14:50:04.043157Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-09-04:longshot",
+      "model": "parlay_v1",
+      "game_date": "2026-09-04",
+      "label": "The longshot: LAD, NYM, CLE, MIN, KC",
+      "proj_value": 1575.0,
+      "proj_prob": 0.059695,
+      "market_value": 1218.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.059695,
+      "graded_at": "2026-09-05T14:40:02.907884Z"
+    },
+    {
+      "entity_key": "2026-09-04:pair",
+      "model": "parlay_v1",
+      "game_date": "2026-09-04",
+      "label": "The confident pair: LAD, NYM",
+      "proj_value": 173.0,
+      "proj_prob": 0.36661,
+      "market_value": 101.0,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.63339,
+      "graded_at": "2026-09-05T14:40:03.048005Z"
+    },
+    {
+      "entity_key": "2026-09-04:trio",
+      "model": "parlay_v1",
+      "game_date": "2026-09-04",
+      "label": "The banded trio: LAD, NYM, MIN",
+      "proj_value": 400.0,
+      "proj_prob": 0.199802,
+      "market_value": 323.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.199802,
+      "graded_at": "2026-09-05T14:40:03.120591Z"
+    }
+  ]
+}
