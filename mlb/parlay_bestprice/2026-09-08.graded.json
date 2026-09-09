@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_bestprice",
+  "date_et": "2026-09-08",
+  "exported_at_utc": "2026-09-09T14:50:03.919094Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-09-08#1",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-08",
+      "label": "Dean Kremer Over 4.5 (Twins @ Tigers) + Heriberto Hernandez Over 1.5 (Mets @ Marlins)",
+      "proj_value": 4.5157,
+      "proj_prob": 0.22144927,
+      "market_value": 4.6125,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.22144927,
+      "graded_at": "2026-09-09T13:00:24.290866Z"
+    },
+    {
+      "entity_key": "2026-09-08#2",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-08",
+      "label": "Hayden Wesneski Under 3.5 (Astros @ Phillies) + Cam Schlittler Over 7.5 (Rockies @ Yankees)",
+      "proj_value": 4.0801,
+      "proj_prob": 0.24509,
+      "market_value": 4.1045,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.75491,
+      "graded_at": "2026-09-09T13:00:35.728623Z"
+    },
+    {
+      "entity_key": "2026-09-08#3",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-08",
+      "label": "Over 8.5 (Guardians @ Orioles) + Tampa Bay Rays -1.5 (Rays @ Braves)",
+      "proj_value": 5.6249,
+      "proj_prob": 0.17778212,
+      "market_value": 5.6375,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.82221788,
+      "graded_at": "2026-09-09T13:00:35.780468Z"
+    }
+  ]
+}
