@@ -1,0 +1,142 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "moneyline",
+  "date_et": "2026-09-10",
+  "models": [
+    "clean_v2"
+  ],
+  "exported_at_utc": "2026-09-10T15:20:04.631943Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "late": true,
+  "late_note": "This day was exported by a RECOVERED run, not the scheduled pre-game one, so its commit timestamp may not precede these games. Read it as a record, not as pre-game evidence — check the commit date yourself.",
+  "row_count": 5,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "01c6d0131073b3384f27ac03c02906e4",
+      "game_date": "2026-09-10",
+      "away": "HOU",
+      "home": "PHI",
+      "away_name": "Houston Astros",
+      "home_name": "Philadelphia Phillies",
+      "label": "HOU @ PHI",
+      "proj_value": null,
+      "proj_prob": 0.595,
+      "market_value": -175.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-09-10T14:12:48.116983Z",
+      "graded_at": null,
+      "extra": {
+        "away_sp": "Cristian Javier",
+        "home_sp": "Zack Wheeler"
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "36a89478e8db28447dfe1b5d1f656477",
+      "game_date": "2026-09-10",
+      "away": "TEX",
+      "home": "SEA",
+      "away_name": "Texas Rangers",
+      "home_name": "Seattle Mariners",
+      "label": "TEX @ SEA",
+      "proj_value": null,
+      "proj_prob": 0.528,
+      "market_value": -132.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-09-10T14:12:48.116983Z",
+      "graded_at": null,
+      "extra": {
+        "away_sp": "Jacob deGrom",
+        "home_sp": "Logan Gilbert"
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "3ef6a964abad382c28ff1f91886dc99a",
+      "game_date": "2026-09-10",
+      "away": "TB",
+      "home": "ATL",
+      "away_name": "Tampa Bay Rays",
+      "home_name": "Atlanta Braves",
+      "label": "TB @ ATL",
+      "proj_value": null,
+      "proj_prob": 0.494,
+      "market_value": -117.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-09-10T14:12:48.116983Z",
+      "graded_at": null,
+      "extra": {
+        "away_sp": "Nick Martinez",
+        "home_sp": "Martín Pérez"
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "46bb732d224f9da07f9e3bb2f32281cc",
+      "game_date": "2026-09-10",
+      "away": "PIT",
+      "home": "CWS",
+      "away_name": "Pittsburgh Pirates",
+      "home_name": "Chicago White Sox",
+      "label": "PIT @ CWS",
+      "proj_value": null,
+      "proj_prob": 0.454,
+      "market_value": -110.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-09-10T14:12:48.116983Z",
+      "graded_at": null,
+      "extra": {
+        "away_sp": "Jared Jones",
+        "home_sp": "Hagen Smith"
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "de5c4fe6a041ce8073e59e063fe7f31f",
+      "game_date": "2026-09-10",
+      "away": "COL",
+      "home": "NYY",
+      "away_name": "Colorado Rockies",
+      "home_name": "New York Yankees",
+      "label": "COL @ NYY",
+      "proj_value": null,
+      "proj_prob": 0.665,
+      "market_value": -350.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-09-10T14:12:48.116983Z",
+      "graded_at": null,
+      "extra": {
+        "away_sp": "Ryan Feltner",
+        "home_sp": "Max Fried"
+      }
+    }
+  ]
+}
