@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-09-10",
+  "exported_at_utc": "2026-09-11T14:50:04.357207Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-09-10:longshot",
+      "model": "parlay_v1",
+      "game_date": "2026-09-10",
+      "label": "The longshot: NYY, PHI, PIT, SEA, TB",
+      "proj_value": 1633.0,
+      "proj_prob": 0.057719,
+      "market_value": 1243.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.057719,
+      "graded_at": "2026-09-11T14:40:02.025276Z"
+    },
+    {
+      "entity_key": "2026-09-10:pair",
+      "model": "parlay_v1",
+      "game_date": "2026-09-10",
+      "label": "The confident pair: NYY, PHI",
+      "proj_value": 153.0,
+      "proj_prob": 0.395675,
+      "market_value": 102.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.395675,
+      "graded_at": "2026-09-11T14:40:02.125491Z"
+    },
+    {
+      "entity_key": "2026-09-10:trio",
+      "model": "parlay_v1",
+      "game_date": "2026-09-10",
+      "label": "The banded trio: NYY, PHI, TB",
+      "proj_value": 399.0,
+      "proj_prob": 0.200212,
+      "market_value": 300.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.200212,
+      "graded_at": "2026-09-11T14:40:02.194761Z"
+    }
+  ]
+}
