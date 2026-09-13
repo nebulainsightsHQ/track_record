@@ -1,0 +1,52 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "ncaaf",
+  "market": "cfb_game_ou",
+  "date_et": "2026-09-13",
+  "models": [
+    "cfb_game_v0_1_20260913"
+  ],
+  "exported_at_utc": "2026-09-13T14:50:03.531930Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "ncaaf",
+      "market": "cfb_game_ou",
+      "model": "cfb_game_v0_1_20260913",
+      "entity_key": "401856688",
+      "game_date": "2026-09-19",
+      "away": "LSU",
+      "home": "MISS",
+      "away_name": "LSU",
+      "home_name": "Ole Miss",
+      "label": "LSU at MISS -- over 57.5",
+      "proj_value": null,
+      "proj_prob": 0.4222,
+      "market_value": 57.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-09-13T04:37:37.658600Z",
+      "graded_at": null,
+      "extra": {
+        "week": 3,
+        "season": 2026,
+        "kickoff_utc": "2026-09-19T23:30:00Z",
+        "season_type": "regular",
+        "market_total": 57.5,
+        "neutral_site": false,
+        "market_ml_books": 3,
+        "ridge_pred_total": 56.083,
+        "ridge_pred_margin": 8.048,
+        "market_spread_home": -2.5,
+        "market_total_books": 4,
+        "market_spread_books": 2,
+        "market_snapshot_date": "2026-08-01",
+        "market_snapshot_type": "board"
+      }
+    }
+  ]
+}
