@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-09-13",
+  "exported_at_utc": "2026-09-14T14:50:04.303314Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-09-13:longshot",
+      "model": "parlay_v1",
+      "game_date": "2026-09-13",
+      "label": "The longshot: DET, MIL, NYY, LAD, OAK",
+      "proj_value": 1502.0,
+      "proj_prob": 0.062408,
+      "market_value": 1249.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.062408,
+      "graded_at": "2026-09-14T14:40:01.935024Z"
+    },
+    {
+      "entity_key": "2026-09-13:pair",
+      "model": "parlay_v1",
+      "game_date": "2026-09-13",
+      "label": "The confident pair: DET, MIL",
+      "proj_value": 181.0,
+      "proj_prob": 0.356405,
+      "market_value": 144.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.356405,
+      "graded_at": "2026-09-14T14:40:02.031954Z"
+    },
+    {
+      "entity_key": "2026-09-13:trio",
+      "model": "parlay_v1",
+      "game_date": "2026-09-13",
+      "label": "The banded trio: DET, MIL, LAD",
+      "proj_value": 414.0,
+      "proj_prob": 0.194597,
+      "market_value": 302.0,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.194597,
+      "graded_at": "2026-09-14T14:40:02.094215Z"
+    }
+  ]
+}
