@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "moneyline",
+  "date_et": "2026-09-15",
+  "exported_at_utc": "2026-09-16T14:50:03.334330Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "8cac5435079f2d8d51adb91e7950bb26",
+      "model": "clean_v2",
+      "game_date": "2026-09-15",
+      "label": "KC @ HOU",
+      "proj_value": null,
+      "proj_prob": 0.535,
+      "market_value": -160.0,
+      "actual_value": 1.0,
+      "result": "home",
+      "correct": true,
+      "error": -0.465,
+      "graded_at": "2026-09-16T14:12:51.387211Z"
+    },
+    {
+      "entity_key": "cce625b7dac12280fdb88a6f44058c93",
+      "model": "clean_v2",
+      "game_date": "2026-09-15",
+      "label": "SEA @ LAA",
+      "proj_value": null,
+      "proj_prob": 0.458,
+      "market_value": 140.0,
+      "actual_value": 1.0,
+      "result": "home",
+      "correct": false,
+      "error": -0.542,
+      "graded_at": "2026-09-16T14:12:51.438779Z"
+    },
+    {
+      "entity_key": "e9344aee4810e4127e69c73c13c781d7",
+      "model": "clean_v2",
+      "game_date": "2026-09-15",
+      "label": "MIA @ ARI",
+      "proj_value": null,
+      "proj_prob": 0.579,
+      "market_value": -150.0,
+      "actual_value": 0.0,
+      "result": "away",
+      "correct": false,
+      "error": 0.579,
+      "graded_at": "2026-09-16T14:12:51.600724Z"
+    }
+  ]
+}
