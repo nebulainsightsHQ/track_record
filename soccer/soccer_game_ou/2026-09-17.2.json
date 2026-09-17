@@ -1,0 +1,61 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "soccer",
+  "market": "soccer_game_ou",
+  "date_et": "2026-09-17",
+  "models": [
+    "soccer_game_v0_1_20260913"
+  ],
+  "exported_at_utc": "2026-09-17T15:20:05.648768Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "soccer",
+      "market": "soccer_game_ou",
+      "model": "soccer_game_v0_1_20260913",
+      "entity_key": "e04c820e4c4bb4d937ded3effa583e96",
+      "game_date": "2026-09-19",
+      "away": "Strasbourg",
+      "home": "Paris FC",
+      "away_name": "Strasbourg",
+      "home_name": "Paris FC",
+      "label": "Strasbourg at Paris FC -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.493316,
+      "market_value": 2.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-09-17T15:01:13.661044Z",
+      "graded_at": null,
+      "extra": {
+        "slot": "primary",
+        "league": "france_ligue_one",
+        "season": 2026,
+        "lead_hours": 48.25,
+        "kickoff_utc": "2026-09-19T15:15:00Z",
+        "market_total": 2.5,
+        "market_p_away": 0.2945991431244243,
+        "market_p_draw": 0.2618613253429635,
+        "market_p_home": 0.4435395315326123,
+        "market_p_over": 0.5554011809656131,
+        "season_source": "derived",
+        "proj_draw_prob": 0.27426,
+        "proj_over_prob": 0.493316,
+        "name_resolution": "learned/learned",
+        "market_1x2_books": 14,
+        "proj_lambda_away": 1.253543,
+        "proj_lambda_home": 1.393503,
+        "market_total_books": 3,
+        "proj_away_win_prob": 0.330363,
+        "proj_home_win_prob": 0.395377,
+        "market_1x2_snapshot": "2026-09-06",
+        "market_snapshot_type": "opening",
+        "market_total_snapshot": "2026-09-06"
+      }
+    }
+  ]
+}
