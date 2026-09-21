@@ -3,11 +3,11 @@
   "sport": "nfl",
   "market": "nfl_rec_yds",
   "date_et": "2026-09-17",
-  "exported_at_utc": "2026-09-18T14:50:04.032885Z",
+  "exported_at_utc": "2026-09-21T14:50:07.625214Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 121,
-  "graded_count": 12,
+  "graded_count": 117,
   "complete": false,
   "rows": [
     {
@@ -18,11 +18,11 @@
       "proj_value": 62.4,
       "proj_prob": null,
       "market_value": 56.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 51.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 11.4,
+      "graded_at": "2026-09-20T21:07:13.413044Z"
     },
     {
       "entity_key": "2026_02_CAR_ATL:00-0038542",
@@ -32,11 +32,11 @@
       "proj_value": 44.5,
       "proj_prob": null,
       "market_value": 42.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 9.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 35.5,
+      "graded_at": "2026-09-20T21:07:13.527909Z"
     },
     {
       "entity_key": "2026_02_CAR_ATL:00-0039491",
@@ -46,11 +46,11 @@
       "proj_value": 54.5,
       "proj_prob": null,
       "market_value": 50.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 66.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -11.5,
+      "graded_at": "2026-09-20T21:07:13.577215Z"
     },
     {
       "entity_key": "2026_02_CAR_ATL:00-0040124",
@@ -60,11 +60,11 @@
       "proj_value": 51.7,
       "proj_prob": null,
       "market_value": 57.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 101.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -49.3,
+      "graded_at": "2026-09-20T21:07:13.626410Z"
     },
     {
       "entity_key": "2026_02_CIN_HOU:00-0034383",
@@ -74,11 +74,11 @@
       "proj_value": 35.5,
       "proj_prob": null,
       "market_value": 42.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 140.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -104.5,
+      "graded_at": "2026-09-20T21:07:13.675842Z"
     },
     {
       "entity_key": "2026_02_CIN_HOU:00-0034829",
@@ -89,10 +89,10 @@
       "proj_prob": null,
       "market_value": 24.5,
       "actual_value": null,
-      "result": null,
+      "result": "void",
       "correct": null,
       "error": null,
-      "graded_at": null
+      "graded_at": "2026-09-20T21:07:13.721767Z"
     },
     {
       "entity_key": "2026_02_CIN_HOU:00-0036410",
@@ -102,11 +102,11 @@
       "proj_value": 55.3,
       "proj_prob": null,
       "market_value": 54.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 95.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -39.7,
+      "graded_at": "2026-09-20T21:07:13.770850Z"
     },
     {
       "entity_key": "2026_02_CIN_HOU:00-0036554",
@@ -117,10 +117,10 @@
       "proj_prob": null,
       "market_value": 66.5,
       "actual_value": null,
-      "result": null,
+      "result": "void",
       "correct": null,
       "error": null,
-      "graded_at": null
+      "graded_at": "2026-09-20T21:07:13.821084Z"
     },
     {
       "entity_key": "2026_02_CIN_HOU:00-0036900",
@@ -130,11 +130,11 @@
       "proj_value": 68.2,
       "proj_prob": null,
       "market_value": 76.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 75.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -6.8,
+      "graded_at": "2026-09-20T21:07:13.868265Z"
     },
     {
       "entity_key": "2026_02_CIN_HOU:00-0038618",
@@ -144,11 +144,11 @@
       "proj_value": 27.5,
       "proj_prob": null,
       "market_value": 32.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 37.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -9.5,
+      "graded_at": "2026-09-20T21:07:13.912049Z"
     },
     {
       "entity_key": "2026_02_CLE_TB:00-0033921",
@@ -158,11 +158,11 @@
       "proj_value": 43.5,
       "proj_prob": null,
       "market_value": 47.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 46.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -2.5,
+      "graded_at": "2026-09-21T00:07:12.312486Z"
     },
     {
       "entity_key": "2026_02_CLE_TB:00-0036407",
@@ -172,11 +172,11 @@
       "proj_value": 33.8,
       "proj_prob": null,
       "market_value": 28.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 0.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 33.8,
+      "graded_at": "2026-09-21T00:07:12.417668Z"
     },
     {
       "entity_key": "2026_02_CLE_TB:00-0038129",
@@ -186,11 +186,11 @@
       "proj_value": 33.7,
       "proj_prob": null,
       "market_value": 27.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 38.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -4.3,
+      "graded_at": "2026-09-21T00:07:12.469705Z"
     },
     {
       "entity_key": "2026_02_CLE_TB:00-0040129",
@@ -200,11 +200,11 @@
       "proj_value": 42.3,
       "proj_prob": null,
       "market_value": 51.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 16.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 26.3,
+      "graded_at": "2026-09-21T00:07:12.518917Z"
     },
     {
       "entity_key": "2026_02_CLE_TB:00-0040663",
@@ -214,11 +214,11 @@
       "proj_value": 41.4,
       "proj_prob": null,
       "market_value": 35.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 54.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -12.6,
+      "graded_at": "2026-09-21T00:07:12.568205Z"
     },
     {
       "entity_key": "2026_02_CLE_TB:00-0041037",
@@ -228,11 +228,11 @@
       "proj_value": 43.2,
       "proj_prob": null,
       "market_value": 30.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 95.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -51.8,
+      "graded_at": "2026-09-21T00:07:12.617818Z"
     },
     {
       "entity_key": "2026_02_CLE_TB:00-0041547",
@@ -242,11 +242,11 @@
       "proj_value": 36.2,
       "proj_prob": null,
       "market_value": 31.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 28.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 8.2,
+      "graded_at": "2026-09-21T00:07:12.664518Z"
     },
     {
       "entity_key": "2026_02_DET_BUF:00-0034827",
@@ -425,10 +425,10 @@
       "proj_prob": null,
       "market_value": 12.5,
       "actual_value": null,
-      "result": null,
+      "result": "void",
       "correct": null,
       "error": null,
-      "graded_at": null
+      "graded_at": "2026-09-20T21:07:13.959253Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0037740",
@@ -438,11 +438,11 @@
       "proj_value": 55.0,
       "proj_prob": null,
       "market_value": 62.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 57.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -2.0,
+      "graded_at": "2026-09-20T21:07:14.009760Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0038120",
@@ -452,11 +452,11 @@
       "proj_value": 15.7,
       "proj_prob": null,
       "market_value": 18.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 63.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -47.3,
+      "graded_at": "2026-09-20T21:07:14.056886Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0038124",
@@ -466,11 +466,11 @@
       "proj_value": 57.7,
       "proj_prob": null,
       "market_value": 60.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 41.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 16.7,
+      "graded_at": "2026-09-20T21:07:14.103964Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0038685",
@@ -480,11 +480,11 @@
       "proj_value": 8.0,
       "proj_prob": null,
       "market_value": 7.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 15.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -7.0,
+      "graded_at": "2026-09-20T21:07:14.149997Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0038996",
@@ -494,11 +494,11 @@
       "proj_value": 53.7,
       "proj_prob": null,
       "market_value": 46.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 15.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 38.7,
+      "graded_at": "2026-09-20T21:07:14.196102Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0039146",
@@ -508,11 +508,11 @@
       "proj_value": 35.3,
       "proj_prob": null,
       "market_value": 36.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 4.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 31.3,
+      "graded_at": "2026-09-20T21:07:14.246381Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0039811",
@@ -522,11 +522,11 @@
       "proj_value": 6.6,
       "proj_prob": null,
       "market_value": 9.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 6.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 0.6,
+      "graded_at": "2026-09-20T21:07:14.296810Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0039890",
@@ -536,11 +536,11 @@
       "proj_value": 41.5,
       "proj_prob": null,
       "market_value": 33.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 63.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -21.5,
+      "graded_at": "2026-09-20T21:07:14.347327Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0040667",
@@ -550,11 +550,11 @@
       "proj_value": 36.6,
       "proj_prob": null,
       "market_value": 48.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 58.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -21.4,
+      "graded_at": "2026-09-20T21:07:14.397959Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0040736",
@@ -565,10 +565,10 @@
       "proj_prob": null,
       "market_value": 17.5,
       "actual_value": null,
-      "result": null,
+      "result": "void",
       "correct": null,
       "error": null,
-      "graded_at": null
+      "graded_at": "2026-09-20T21:07:14.445063Z"
     },
     {
       "entity_key": "2026_02_GB_NYJ:00-0041032",
@@ -578,11 +578,11 @@
       "proj_value": 20.1,
       "proj_prob": null,
       "market_value": 21.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 17.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 3.1,
+      "graded_at": "2026-09-20T21:07:14.496228Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0030279",
@@ -592,11 +592,11 @@
       "proj_value": 33.6,
       "proj_prob": null,
       "market_value": 30.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 5.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 28.6,
+      "graded_at": "2026-09-21T05:07:13.911767Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0030506",
@@ -606,11 +606,11 @@
       "proj_value": 42.1,
       "proj_prob": null,
       "market_value": 42.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 101.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -58.9,
+      "graded_at": "2026-09-21T05:07:14.006985Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0036223",
@@ -620,11 +620,11 @@
       "proj_value": 13.6,
       "proj_prob": null,
       "market_value": 17.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -26.4,
+      "graded_at": "2026-09-21T05:07:14.052929Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0037664",
@@ -634,11 +634,11 @@
       "proj_value": 46.4,
       "proj_prob": null,
       "market_value": 43.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 11.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 35.4,
+      "graded_at": "2026-09-21T05:07:14.102299Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0038104",
@@ -648,11 +648,11 @@
       "proj_value": 19.7,
       "proj_prob": null,
       "market_value": 14.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 86.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -66.3,
+      "graded_at": "2026-09-21T05:07:14.146086Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0038134",
@@ -662,11 +662,11 @@
       "proj_value": 23.0,
       "proj_prob": null,
       "market_value": 19.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 61.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -38.0,
+      "graded_at": "2026-09-21T05:07:14.186704Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0038997",
@@ -676,11 +676,11 @@
       "proj_value": 36.8,
       "proj_prob": null,
       "market_value": 38.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 72.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -35.2,
+      "graded_at": "2026-09-21T05:07:14.233455Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0039067",
@@ -690,11 +690,11 @@
       "proj_value": 65.7,
       "proj_prob": null,
       "market_value": 54.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 83.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -17.3,
+      "graded_at": "2026-09-21T05:07:14.283481Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0039894",
@@ -704,11 +704,11 @@
       "proj_value": 37.0,
       "proj_prob": null,
       "market_value": 37.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 25.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 12.0,
+      "graded_at": "2026-09-21T05:07:14.326564Z"
     },
     {
       "entity_key": "2026_02_IND_KC:00-0040128",
@@ -718,11 +718,11 @@
       "proj_value": 34.2,
       "proj_prob": null,
       "market_value": 44.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 21.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 13.2,
+      "graded_at": "2026-09-21T05:07:14.376080Z"
     },
     {
       "entity_key": "2026_02_JAX_DEN:00-0034348",
@@ -732,11 +732,11 @@
       "proj_value": 48.5,
       "proj_prob": null,
       "market_value": 41.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 25.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 23.5,
+      "graded_at": "2026-09-21T00:07:12.717992Z"
     },
     {
       "entity_key": "2026_02_JAX_DEN:00-0034960",
@@ -746,11 +746,11 @@
       "proj_value": 48.7,
       "proj_prob": null,
       "market_value": 36.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 28.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 20.7,
+      "graded_at": "2026-09-21T00:07:12.769241Z"
     },
     {
       "entity_key": "2026_02_JAX_DEN:00-0036613",
@@ -760,11 +760,11 @@
       "proj_value": 44.3,
       "proj_prob": null,
       "market_value": 54.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 138.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -93.7,
+      "graded_at": "2026-09-21T00:07:12.819239Z"
     },
     {
       "entity_key": "2026_02_JAX_DEN:00-0038606",
@@ -774,11 +774,11 @@
       "proj_value": 65.1,
       "proj_prob": null,
       "market_value": 55.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 98.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -32.9,
+      "graded_at": "2026-09-21T00:07:12.869662Z"
     },
     {
       "entity_key": "2026_02_JAX_DEN:00-0038935",
@@ -788,11 +788,11 @@
       "proj_value": 33.5,
       "proj_prob": null,
       "market_value": 33.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 17.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 16.5,
+      "graded_at": "2026-09-21T00:07:12.926723Z"
     },
     {
       "entity_key": "2026_02_JAX_DEN:00-0039893",
@@ -802,11 +802,11 @@
       "proj_value": 42.7,
       "proj_prob": null,
       "market_value": 34.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 2.7,
+      "graded_at": "2026-09-21T00:07:12.977023Z"
     },
     {
       "entity_key": "2026_02_LV_LAC:00-0040122",
@@ -816,11 +816,11 @@
       "proj_value": 22.2,
       "proj_prob": null,
       "market_value": 28.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 15.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.2,
+      "graded_at": "2026-09-21T00:07:13.029039Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0031408",
@@ -830,11 +830,11 @@
       "proj_value": 45.7,
       "proj_prob": null,
       "market_value": 48.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 54.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -8.3,
+      "graded_at": "2026-09-21T01:07:02.717906Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0032775",
@@ -844,11 +844,11 @@
       "proj_value": 32.1,
       "proj_prob": null,
       "market_value": 25.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 34.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -1.9,
+      "graded_at": "2026-09-21T01:07:02.808913Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0033280",
@@ -858,11 +858,11 @@
       "proj_value": 37.5,
       "proj_prob": null,
       "market_value": 42.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 43.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -5.5,
+      "graded_at": "2026-09-21T01:07:02.852772Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0033288",
@@ -872,11 +872,11 @@
       "proj_value": 51.7,
       "proj_prob": null,
       "market_value": 41.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 80.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -28.3,
+      "graded_at": "2026-09-21T01:07:02.899705Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0035719",
@@ -886,11 +886,11 @@
       "proj_value": 47.3,
       "proj_prob": null,
       "market_value": 32.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 31.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 16.3,
+      "graded_at": "2026-09-21T01:07:02.943661Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0037252",
@@ -900,11 +900,11 @@
       "proj_value": 31.6,
       "proj_prob": null,
       "market_value": 23.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 17.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 14.6,
+      "graded_at": "2026-09-21T01:07:02.994179Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0039040",
@@ -914,11 +914,11 @@
       "proj_value": 26.6,
       "proj_prob": null,
       "market_value": 27.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 19.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.6,
+      "graded_at": "2026-09-21T01:07:03.043830Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0039880",
@@ -928,11 +928,11 @@
       "proj_value": 22.3,
       "proj_prob": null,
       "market_value": 33.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 43.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -20.7,
+      "graded_at": "2026-09-21T01:07:03.093684Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0041523",
@@ -942,11 +942,11 @@
       "proj_value": 71.5,
       "proj_prob": null,
       "market_value": 38.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 19.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 52.5,
+      "graded_at": "2026-09-21T01:07:03.142825Z"
     },
     {
       "entity_key": "2026_02_MIA_SF:00-0041525",
@@ -956,11 +956,11 @@
       "proj_value": 19.3,
       "proj_prob": null,
       "market_value": 20.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 0.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 19.3,
+      "graded_at": "2026-09-21T01:07:03.193081Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0032464",
@@ -970,11 +970,11 @@
       "proj_value": 33.5,
       "proj_prob": null,
       "market_value": 24.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -6.5,
+      "graded_at": "2026-09-20T21:07:14.548083Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0033293",
@@ -984,11 +984,11 @@
       "proj_value": 12.9,
       "proj_prob": null,
       "market_value": 14.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 0.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 12.9,
+      "graded_at": "2026-09-20T21:07:14.593074Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0035229",
@@ -998,11 +998,11 @@
       "proj_value": 34.5,
       "proj_prob": null,
       "market_value": 27.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 29.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 5.5,
+      "graded_at": "2026-09-20T21:07:14.641584Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0035249",
@@ -1012,11 +1012,11 @@
       "proj_value": 18.2,
       "proj_prob": null,
       "market_value": 11.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 24.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -5.8,
+      "graded_at": "2026-09-20T21:07:14.688844Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0036259",
@@ -1027,10 +1027,10 @@
       "proj_prob": null,
       "market_value": 18.5,
       "actual_value": null,
-      "result": null,
+      "result": "void",
       "correct": null,
       "error": null,
-      "graded_at": null
+      "graded_at": "2026-09-20T21:07:14.735949Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0036275",
@@ -1040,11 +1040,11 @@
       "proj_value": 11.0,
       "proj_prob": null,
       "market_value": 11.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 54.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -43.0,
+      "graded_at": "2026-09-20T21:07:14.783197Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0036290",
@@ -1054,11 +1054,11 @@
       "proj_value": 23.3,
       "proj_prob": null,
       "market_value": 13.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 0.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 23.3,
+      "graded_at": "2026-09-20T21:07:14.830315Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0036322",
@@ -1068,11 +1068,11 @@
       "proj_value": 55.7,
       "proj_prob": null,
       "market_value": 75.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 55.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 0.700000000000003,
+      "graded_at": "2026-09-20T21:07:14.874559Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0038994",
@@ -1082,11 +1082,11 @@
       "proj_value": 28.9,
       "proj_prob": null,
       "market_value": 35.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 21.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.9,
+      "graded_at": "2026-09-20T21:07:14.915066Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0039919",
@@ -1096,11 +1096,11 @@
       "proj_value": 41.6,
       "proj_prob": null,
       "market_value": 39.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 43.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -1.4,
+      "graded_at": "2026-09-20T21:07:14.962402Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0040126",
@@ -1110,11 +1110,11 @@
       "proj_value": 54.8,
       "proj_prob": null,
       "market_value": 47.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 3.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 51.8,
+      "graded_at": "2026-09-20T21:07:15.014218Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI:00-0040735",
@@ -1124,11 +1124,11 @@
       "proj_value": 50.7,
       "proj_prob": null,
       "market_value": 49.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 32.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 18.7,
+      "graded_at": "2026-09-20T21:07:15.059983Z"
     },
     {
       "entity_key": "2026_02_NO_BAL:00-0037239",
@@ -1138,11 +1138,11 @@
       "proj_value": 81.6,
       "proj_prob": null,
       "market_value": 71.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 86.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -4.40000000000001,
+      "graded_at": "2026-09-20T21:07:15.106965Z"
     },
     {
       "entity_key": "2026_02_NO_BAL:00-0039424",
@@ -1152,11 +1152,11 @@
       "proj_value": 41.7,
       "proj_prob": null,
       "market_value": 43.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 64.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -22.3,
+      "graded_at": "2026-09-20T21:07:15.150892Z"
     },
     {
       "entity_key": "2026_02_NYG_LA:00-0031381",
@@ -1222,11 +1222,11 @@
       "proj_value": 41.8,
       "proj_prob": null,
       "market_value": 37.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 4.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 37.8,
+      "graded_at": "2026-09-20T21:07:15.197910Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0034844",
@@ -1236,11 +1236,11 @@
       "proj_value": 13.9,
       "proj_prob": null,
       "market_value": 11.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 11.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 2.9,
+      "graded_at": "2026-09-20T21:07:15.240459Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0035261",
@@ -1250,11 +1250,11 @@
       "proj_value": 7.6,
       "proj_prob": null,
       "market_value": 8.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 1.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 6.6,
+      "graded_at": "2026-09-20T21:07:15.286473Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0036912",
@@ -1264,11 +1264,11 @@
       "proj_value": 49.3,
       "proj_prob": null,
       "market_value": 60.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 117.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -67.7,
+      "graded_at": "2026-09-20T21:07:15.332694Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0038117",
@@ -1278,11 +1278,11 @@
       "proj_value": 62.0,
       "proj_prob": null,
       "market_value": 36.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 9.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 53.0,
+      "graded_at": "2026-09-20T21:07:15.382155Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0038393",
@@ -1292,11 +1292,11 @@
       "proj_value": 31.0,
       "proj_prob": null,
       "market_value": 30.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 74.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -43.0,
+      "graded_at": "2026-09-20T21:07:15.434593Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0039032",
@@ -1306,11 +1306,11 @@
       "proj_value": 17.8,
       "proj_prob": null,
       "market_value": 15.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 29.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -11.2,
+      "graded_at": "2026-09-20T21:07:15.484907Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0040584",
@@ -1320,11 +1320,11 @@
       "proj_value": 22.8,
       "proj_prob": null,
       "market_value": 22.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 13.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 9.8,
+      "graded_at": "2026-09-20T21:07:15.535464Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0041438",
@@ -1334,11 +1334,11 @@
       "proj_value": 33.8,
       "proj_prob": null,
       "market_value": 40.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 27.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 6.8,
+      "graded_at": "2026-09-20T21:07:15.583021Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0033090",
@@ -1348,11 +1348,11 @@
       "proj_value": 33.4,
       "proj_prob": null,
       "market_value": 38.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -6.6,
+      "graded_at": "2026-09-20T21:07:15.626904Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0033555",
@@ -1362,11 +1362,11 @@
       "proj_value": 41.3,
       "proj_prob": null,
       "market_value": 35.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 18.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 23.3,
+      "graded_at": "2026-09-20T21:07:15.674004Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0035640",
@@ -1376,11 +1376,11 @@
       "proj_value": 50.6,
       "proj_prob": null,
       "market_value": 52.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 27.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 23.6,
+      "graded_at": "2026-09-20T21:07:15.717758Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0036139",
@@ -1390,11 +1390,11 @@
       "proj_value": 11.6,
       "proj_prob": null,
       "market_value": 12.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 22.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -10.4,
+      "graded_at": "2026-09-20T21:07:15.765001Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0036252",
@@ -1405,10 +1405,10 @@
       "proj_prob": null,
       "market_value": 36.5,
       "actual_value": null,
-      "result": null,
+      "result": "void",
       "correct": null,
       "error": null,
-      "graded_at": null
+      "graded_at": "2026-09-20T21:07:15.812105Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0036875",
@@ -1418,11 +1418,11 @@
       "proj_value": 29.1,
       "proj_prob": null,
       "market_value": 17.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 3.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 26.1,
+      "graded_at": "2026-09-20T21:07:15.859334Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0036894",
@@ -1432,11 +1432,11 @@
       "proj_value": 31.1,
       "proj_prob": null,
       "market_value": 26.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 32.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -0.899999999999999,
+      "graded_at": "2026-09-20T21:07:15.903075Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0037228",
@@ -1446,11 +1446,11 @@
       "proj_value": 14.8,
       "proj_prob": null,
       "market_value": 19.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 34.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -19.2,
+      "graded_at": "2026-09-20T21:07:15.946852Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0037816",
@@ -1460,11 +1460,11 @@
       "proj_value": 40.1,
       "proj_prob": null,
       "market_value": 39.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 96.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -55.9,
+      "graded_at": "2026-09-20T21:07:15.988077Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0038558",
@@ -1474,11 +1474,11 @@
       "proj_value": 23.1,
       "proj_prob": null,
       "market_value": 15.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 7.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 16.1,
+      "graded_at": "2026-09-20T21:07:16.034971Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0038621",
@@ -1488,11 +1488,11 @@
       "proj_value": 23.9,
       "proj_prob": null,
       "market_value": 35.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 9.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 14.9,
+      "graded_at": "2026-09-20T21:07:16.076112Z"
     },
     {
       "entity_key": "2026_02_PIT_NE:00-0039739",
@@ -1502,11 +1502,11 @@
       "proj_value": 17.1,
       "proj_prob": null,
       "market_value": 16.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 28.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -10.9,
+      "graded_at": "2026-09-20T21:07:16.119839Z"
     },
     {
       "entity_key": "2026_02_SEA_ARI:00-0037744",
@@ -1516,11 +1516,11 @@
       "proj_value": 69.3,
       "proj_prob": null,
       "market_value": 60.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 41.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 28.3,
+      "graded_at": "2026-09-21T01:07:03.242675Z"
     },
     {
       "entity_key": "2026_02_SEA_ARI:00-0038543",
@@ -1530,11 +1530,11 @@
       "proj_value": 77.5,
       "proj_prob": null,
       "market_value": 81.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 155.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -77.5,
+      "graded_at": "2026-09-21T01:07:03.291932Z"
     },
     {
       "entity_key": "2026_02_SEA_ARI:00-0038559",
@@ -1544,11 +1544,11 @@
       "proj_value": 65.7,
       "proj_prob": null,
       "market_value": 39.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 18.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 47.7,
+      "graded_at": "2026-09-21T01:07:03.341196Z"
     },
     {
       "entity_key": "2026_02_SEA_ARI:00-0039849",
@@ -1558,11 +1558,11 @@
       "proj_value": 35.4,
       "proj_prob": null,
       "market_value": 34.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 0.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 35.4,
+      "graded_at": "2026-09-21T01:07:03.388346Z"
     },
     {
       "entity_key": "2026_02_SEA_ARI:00-0041027",
@@ -1572,11 +1572,11 @@
       "proj_value": 13.9,
       "proj_prob": null,
       "market_value": 14.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 16.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -2.1,
+      "graded_at": "2026-09-21T01:07:03.435464Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0031588",
@@ -1586,11 +1586,11 @@
       "proj_value": 49.1,
       "proj_prob": null,
       "market_value": 48.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 47.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 2.1,
+      "graded_at": "2026-09-21T01:07:03.482568Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0035659",
@@ -1600,11 +1600,11 @@
       "proj_value": 52.6,
       "proj_prob": null,
       "market_value": 51.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 50.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 2.6,
+      "graded_at": "2026-09-21T01:07:03.529713Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0036358",
@@ -1614,11 +1614,11 @@
       "proj_value": 68.2,
       "proj_prob": null,
       "market_value": 75.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 153.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -84.8,
+      "graded_at": "2026-09-21T01:07:03.573553Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0036997",
@@ -1628,11 +1628,11 @@
       "proj_value": 10.0,
       "proj_prob": null,
       "market_value": 13.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 20.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -10.0,
+      "graded_at": "2026-09-21T01:07:03.620665Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0037247",
@@ -1642,11 +1642,11 @@
       "proj_value": 65.2,
       "proj_prob": null,
       "market_value": 63.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 25.2,
+      "graded_at": "2026-09-21T01:07:03.671169Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0037256",
@@ -1656,11 +1656,11 @@
       "proj_value": 13.9,
       "proj_prob": null,
       "market_value": 11.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -26.1,
+      "graded_at": "2026-09-21T01:07:03.718315Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0038041",
@@ -1670,11 +1670,11 @@
       "proj_value": 25.4,
       "proj_prob": null,
       "market_value": 26.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 43.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -17.6,
+      "graded_at": "2026-09-21T01:07:03.765508Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0039410",
@@ -1684,11 +1684,11 @@
       "proj_value": 35.0,
       "proj_prob": null,
       "market_value": 29.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 23.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 12.0,
+      "graded_at": "2026-09-21T01:07:03.815129Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL:00-0041040",
@@ -1698,11 +1698,11 @@
       "proj_value": 49.9,
       "proj_prob": null,
       "market_value": 26.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 24.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 25.9,
+      "graded_at": "2026-09-21T01:07:03.864285Z"
     }
   ]
 }

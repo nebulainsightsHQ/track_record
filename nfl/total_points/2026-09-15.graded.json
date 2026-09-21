@@ -3,11 +3,11 @@
   "sport": "nfl",
   "market": "nfl_game_total",
   "date_et": "2026-09-15",
-  "exported_at_utc": "2026-09-18T14:50:05.670043Z",
+  "exported_at_utc": "2026-09-21T14:50:09.776426Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 16,
-  "graded_count": 1,
+  "graded_count": 15,
   "complete": false,
   "rows": [
     {
@@ -18,11 +18,11 @@
       "proj_value": 45.66,
       "proj_prob": null,
       "market_value": 43.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 37.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 8.66,
+      "graded_at": "2026-09-20T21:07:13.002200Z"
     },
     {
       "entity_key": "2026_02_CIN_HOU",
@@ -32,11 +32,11 @@
       "proj_value": 47.6,
       "proj_prob": null,
       "market_value": 46.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 26.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 21.6,
+      "graded_at": "2026-09-20T21:07:13.002200Z"
     },
     {
       "entity_key": "2026_02_CLE_TB",
@@ -46,11 +46,11 @@
       "proj_value": 42.29,
       "proj_prob": null,
       "market_value": 41.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 42.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 0.289999999999999,
+      "graded_at": "2026-09-20T23:07:13.487673Z"
     },
     {
       "entity_key": "2026_02_DET_BUF",
@@ -74,11 +74,11 @@
       "proj_value": 45.71,
       "proj_prob": null,
       "market_value": 44.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 37.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 8.71,
+      "graded_at": "2026-09-20T21:07:13.002200Z"
     },
     {
       "entity_key": "2026_02_IND_KC",
@@ -88,11 +88,11 @@
       "proj_value": 46.37,
       "proj_prob": null,
       "market_value": 46.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 63.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -16.63,
+      "graded_at": "2026-09-21T05:07:13.744193Z"
     },
     {
       "entity_key": "2026_02_JAX_DEN",
@@ -102,11 +102,11 @@
       "proj_value": 42.55,
       "proj_prob": null,
       "market_value": 45.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 33.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 9.55,
+      "graded_at": "2026-09-21T00:07:12.098777Z"
     },
     {
       "entity_key": "2026_02_LV_LAC",
@@ -116,11 +116,11 @@
       "proj_value": 41.73,
       "proj_prob": null,
       "market_value": 43.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 1.73,
+      "graded_at": "2026-09-21T00:07:12.098777Z"
     },
     {
       "entity_key": "2026_02_MIA_SF",
@@ -130,11 +130,11 @@
       "proj_value": 45.16,
       "proj_prob": null,
       "market_value": 45.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 48.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -2.84,
+      "graded_at": "2026-09-21T01:07:02.477233Z"
     },
     {
       "entity_key": "2026_02_MIN_CHI",
@@ -144,11 +144,11 @@
       "proj_value": 44.24,
       "proj_prob": null,
       "market_value": 48.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 12.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 32.24,
+      "graded_at": "2026-09-20T21:07:13.002200Z"
     },
     {
       "entity_key": "2026_02_NO_BAL",
@@ -158,11 +158,11 @@
       "proj_value": 45.74,
       "proj_prob": null,
       "market_value": 47.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 41.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 4.74,
+      "graded_at": "2026-09-20T21:07:13.002200Z"
     },
     {
       "entity_key": "2026_02_NYG_LA",
@@ -186,11 +186,11 @@
       "proj_value": 43.03,
       "proj_prob": null,
       "market_value": 39.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 44.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -0.969999999999999,
+      "graded_at": "2026-09-20T21:07:13.002200Z"
     },
     {
       "entity_key": "2026_02_PIT_NE",
@@ -200,11 +200,11 @@
       "proj_value": 40.21,
       "proj_prob": null,
       "market_value": 41.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 23.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 17.21,
+      "graded_at": "2026-09-20T21:07:13.002200Z"
     },
     {
       "entity_key": "2026_02_SEA_ARI",
@@ -214,11 +214,11 @@
       "proj_value": 44.89,
       "proj_prob": null,
       "market_value": 41.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 38.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 6.89,
+      "graded_at": "2026-09-21T01:07:02.477233Z"
     },
     {
       "entity_key": "2026_02_WAS_DAL",
@@ -228,11 +228,11 @@
       "proj_value": 52.1,
       "proj_prob": null,
       "market_value": 50.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 57.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -4.9,
+      "graded_at": "2026-09-21T01:07:02.477233Z"
     }
   ]
 }
