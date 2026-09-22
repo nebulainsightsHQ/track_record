@@ -3,12 +3,12 @@
   "sport": "nfl",
   "market": "nfl_rec_yds",
   "date_et": "2026-09-17",
-  "exported_at_utc": "2026-09-21T14:50:07.625214Z",
+  "exported_at_utc": "2026-09-22T14:50:08.924474Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 121,
-  "graded_count": 117,
-  "complete": false,
+  "graded_count": 121,
+  "complete": true,
   "rows": [
     {
       "entity_key": "2026_02_CAR_ATL:00-0037238",
@@ -1166,11 +1166,11 @@
       "proj_value": 49.8,
       "proj_prob": null,
       "market_value": 44.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 195.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -145.2,
+      "graded_at": "2026-09-22T05:07:14.931353Z"
     },
     {
       "entity_key": "2026_02_NYG_LA:00-0037838",
@@ -1180,11 +1180,11 @@
       "proj_value": 33.3,
       "proj_prob": null,
       "market_value": 45.0,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 33.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 0.299999999999997,
+      "graded_at": "2026-09-22T05:07:15.031049Z"
     },
     {
       "entity_key": "2026_02_NYG_LA:00-0039075",
@@ -1195,10 +1195,10 @@
       "proj_prob": null,
       "market_value": 85.5,
       "actual_value": null,
-      "result": null,
+      "result": "void",
       "correct": null,
       "error": null,
-      "graded_at": null
+      "graded_at": "2026-09-22T05:07:15.076833Z"
     },
     {
       "entity_key": "2026_02_NYG_LA:00-0039337",
@@ -1208,11 +1208,11 @@
       "proj_value": 67.5,
       "proj_prob": null,
       "market_value": 65.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 1.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 66.5,
+      "graded_at": "2026-09-22T05:07:15.122896Z"
     },
     {
       "entity_key": "2026_02_PHI_TEN:00-0034351",
