@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_bestprice",
+  "date_et": "2026-09-22",
+  "exported_at_utc": "2026-09-23T14:50:05.161665Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-09-22#1",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-22",
+      "label": "Alejandro Kirk Over 1.5 (Blue Jays @ Orioles) + Daniel Lynch IV Under 3.5 (White Sox @ Royals)",
+      "proj_value": 4.694,
+      "proj_prob": 0.21303964,
+      "market_value": 4.8609,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.78696036,
+      "graded_at": "2026-09-23T13:00:35.026886Z"
+    },
+    {
+      "entity_key": "2026-09-22#2",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-22",
+      "label": "Brandon Williamson Under 2.5 (Reds @ Braves) + Pete Crow-Armstrong Under 1.5 (Marlins @ Cubs)",
+      "proj_value": 3.9392,
+      "proj_prob": 0.25385811,
+      "market_value": 3.9417,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.25385811,
+      "graded_at": "2026-09-23T13:00:44.564865Z"
+    },
+    {
+      "entity_key": "2026-09-22#3",
+      "model": "bestprice_v1",
+      "game_date": "2026-09-22",
+      "label": "Boston Red Sox (Guardians @ Red Sox) + Gleyber Torres Over 1.5 (Nationals @ Tigers)",
+      "proj_value": 4.8331,
+      "proj_prob": 0.2069067,
+      "market_value": 4.73,
+      "actual_value": 0.0,
+      "result": "loss",
+      "correct": false,
+      "error": 0.2069067,
+      "graded_at": "2026-09-23T13:00:49.705059Z"
+    }
+  ]
+}
