@@ -3,12 +3,12 @@
   "sport": "mlb",
   "market": "mlb_k",
   "date_et": "2026-09-22",
-  "exported_at_utc": "2026-09-23T14:50:05.160769Z",
+  "exported_at_utc": "2026-09-24T14:50:05.838002Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 20,
-  "graded_count": 18,
-  "complete": false,
+  "graded_count": 20,
+  "complete": true,
   "rows": [
     {
       "entity_key": "822840:640455",
@@ -242,11 +242,11 @@
       "proj_value": 4.19,
       "proj_prob": null,
       "market_value": 4.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 7.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -2.81,
+      "graded_at": "2026-09-24T14:30:50.048798Z"
     },
     {
       "entity_key": "824785:605135",
@@ -256,11 +256,11 @@
       "proj_value": 4.14,
       "proj_prob": null,
       "market_value": 3.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 2.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 2.14,
+      "graded_at": "2026-09-24T14:30:50.529315Z"
     },
     {
       "entity_key": "824867:682227",
