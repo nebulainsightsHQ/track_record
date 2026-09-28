@@ -3,12 +3,12 @@
   "sport": "nfl",
   "market": "nfl_rec_yds",
   "date_et": "2026-09-24",
-  "exported_at_utc": "2026-09-25T14:50:04.500404Z",
+  "exported_at_utc": "2026-09-28T14:50:07.331698Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 23,
-  "graded_count": 9,
-  "complete": false,
+  "graded_count": 23,
+  "complete": true,
   "rows": [
     {
       "entity_key": "2026_03_ATL_GB:00-0036970",
@@ -144,11 +144,11 @@
       "proj_value": 74.0,
       "proj_prob": null,
       "market_value": 85.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 112.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -38.0,
+      "graded_at": "2026-09-28T13:51:48.869523Z"
     },
     {
       "entity_key": "2026_03_BAL_DAL:00-0036997",
@@ -158,11 +158,11 @@
       "proj_value": 12.9,
       "proj_prob": null,
       "market_value": 17.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 5.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.9,
+      "graded_at": "2026-09-28T13:51:48.975394Z"
     },
     {
       "entity_key": "2026_03_BAL_DAL:00-0037247",
@@ -172,11 +172,11 @@
       "proj_value": 57.8,
       "proj_prob": null,
       "market_value": 57.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 82.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -24.2,
+      "graded_at": "2026-09-28T13:51:49.024767Z"
     },
     {
       "entity_key": "2026_03_BAL_DAL:00-0038041",
@@ -186,11 +186,11 @@
       "proj_value": 26.3,
       "proj_prob": null,
       "market_value": 27.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 23.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 3.3,
+      "graded_at": "2026-09-28T13:51:49.071508Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0034837",
@@ -200,11 +200,11 @@
       "proj_value": 33.2,
       "proj_prob": null,
       "market_value": 13.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 0.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 33.2,
+      "graded_at": "2026-09-28T13:51:49.117922Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0036309",
@@ -214,11 +214,11 @@
       "proj_value": 30.3,
       "proj_prob": null,
       "market_value": 17.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 20.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 10.3,
+      "graded_at": "2026-09-28T13:51:49.165421Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0037838",
@@ -228,11 +228,11 @@
       "proj_value": 37.6,
       "proj_prob": null,
       "market_value": 40.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 13.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 24.6,
+      "graded_at": "2026-09-28T13:51:49.215158Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0038117",
@@ -242,11 +242,11 @@
       "proj_value": 56.7,
       "proj_prob": null,
       "market_value": 31.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 57.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -0.299999999999997,
+      "graded_at": "2026-09-28T13:51:49.265664Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0039337",
@@ -256,11 +256,11 @@
       "proj_value": 66.1,
       "proj_prob": null,
       "market_value": 55.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 26.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 40.1,
+      "graded_at": "2026-09-28T13:51:49.310903Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0040170",
@@ -270,11 +270,11 @@
       "proj_value": 30.8,
       "proj_prob": null,
       "market_value": 15.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 11.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 19.8,
+      "graded_at": "2026-09-28T13:51:49.358957Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0040584",
@@ -284,11 +284,11 @@
       "proj_value": 21.7,
       "proj_prob": null,
       "market_value": 23.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 14.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.7,
+      "graded_at": "2026-09-28T13:51:49.404566Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0040715",
@@ -298,11 +298,11 @@
       "proj_value": 21.5,
       "proj_prob": null,
       "market_value": 12.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 40.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -18.5,
+      "graded_at": "2026-09-28T13:51:49.450008Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0041042",
@@ -312,11 +312,11 @@
       "proj_value": 28.2,
       "proj_prob": null,
       "market_value": 23.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 19.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 9.2,
+      "graded_at": "2026-09-28T13:51:49.495273Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG:00-0041438",
@@ -326,11 +326,11 @@
       "proj_value": 29.7,
       "proj_prob": null,
       "market_value": 36.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 58.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -28.3,
+      "graded_at": "2026-09-28T13:51:49.541088Z"
     }
   ]
 }

@@ -3,11 +3,11 @@
   "sport": "nfl",
   "market": "nfl_game_ml",
   "date_et": "2026-09-22",
-  "exported_at_utc": "2026-09-25T14:50:08.182557Z",
+  "exported_at_utc": "2026-09-28T14:50:10.711157Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 16,
-  "graded_count": 1,
+  "graded_count": 15,
   "complete": false,
   "rows": [
     {
@@ -18,11 +18,11 @@
       "proj_value": null,
       "proj_prob": 0.7103,
       "market_value": 0.7706,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.2897,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_ATL_GB",
@@ -46,11 +46,11 @@
       "proj_value": null,
       "proj_prob": 0.3843,
       "market_value": 0.414,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.3843,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_CAR_CLE",
@@ -60,11 +60,11 @@
       "proj_value": null,
       "proj_prob": 0.4931,
       "market_value": 0.4234,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": false,
+      "error": -0.5069,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_CIN_PIT",
@@ -74,11 +74,11 @@
       "proj_value": null,
       "proj_prob": 0.4454,
       "market_value": 0.373,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": false,
+      "error": -0.5546,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_HOU_IND",
@@ -88,11 +88,11 @@
       "proj_value": null,
       "proj_prob": 0.4502,
       "market_value": 0.4289,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": false,
+      "error": -0.5498,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_KC_MIA",
@@ -102,11 +102,11 @@
       "proj_value": null,
       "proj_prob": 0.331,
       "market_value": 0.1525,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.331,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_LA_DEN",
@@ -116,11 +116,11 @@
       "proj_value": null,
       "proj_prob": 0.4514,
       "market_value": 0.4486,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": false,
+      "error": -0.5486,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_LAC_BUF",
@@ -130,11 +130,11 @@
       "proj_value": null,
       "proj_prob": 0.7315,
       "market_value": 0.7383,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.2685,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_LV_NO",
@@ -144,11 +144,11 @@
       "proj_value": null,
       "proj_prob": 0.6846,
       "market_value": 0.614,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.6846,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_MIN_TB",
@@ -158,11 +158,11 @@
       "proj_value": null,
       "proj_prob": 0.4398,
       "market_value": 0.4684,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.4398,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_NE_JAX",
@@ -172,11 +172,11 @@
       "proj_value": null,
       "proj_prob": 0.5992,
       "market_value": 0.5915,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.4008,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_NYJ_DET",
@@ -186,11 +186,11 @@
       "proj_value": null,
       "proj_prob": 0.7872,
       "market_value": 0.7241,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.2128,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_PHI_CHI",
@@ -214,11 +214,11 @@
       "proj_value": null,
       "proj_prob": 0.3248,
       "market_value": 0.2759,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": false,
+      "error": -0.6752,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     },
     {
       "entity_key": "2026_03_TEN_NYG",
@@ -228,11 +228,11 @@
       "proj_value": null,
       "proj_prob": 0.6235,
       "market_value": 0.614,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.3765,
+      "graded_at": "2026-09-28T13:51:48.217475Z"
     }
   ]
 }
