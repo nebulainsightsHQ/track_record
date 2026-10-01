@@ -1,0 +1,113 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "moneyline",
+  "date_et": "2026-10-01",
+  "models": [
+    "clean_v2"
+  ],
+  "exported_at_utc": "2026-10-01T14:50:04.763591Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 4,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "347a2e725dd11a54a1d964eae3d04dd2",
+      "game_date": "2026-10-03",
+      "away": "SD",
+      "home": "MIL",
+      "away_name": "San Diego Padres",
+      "home_name": "Milwaukee Brewers",
+      "label": "SD @ MIL",
+      "proj_value": null,
+      "proj_prob": 0.599,
+      "market_value": -225.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-01T14:12:49.434359Z",
+      "graded_at": null,
+      "extra": {
+        "home_sp": "Jacob Misiorowski",
+        "run_line": -1.5
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "5524c44b05e28aa899909c9e001184ec",
+      "game_date": "2026-10-01",
+      "away": "PHI",
+      "home": "ATL",
+      "away_name": "Philadelphia Phillies",
+      "home_name": "Atlanta Braves",
+      "label": "PHI @ ATL",
+      "proj_value": null,
+      "proj_prob": 0.518,
+      "market_value": -102.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-01T14:12:49.434359Z",
+      "graded_at": null,
+      "extra": {
+        "run_line": 1.5
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "5d13b613a334039f0694d8c95af28728",
+      "game_date": "2026-10-03",
+      "away": "CWS",
+      "home": "CLE",
+      "away_name": "Chicago White Sox",
+      "home_name": "Cleveland Guardians",
+      "label": "CWS @ CLE",
+      "proj_value": null,
+      "proj_prob": 0.504,
+      "market_value": -160.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-01T14:12:49.434359Z",
+      "graded_at": null,
+      "extra": {
+        "run_line": -1.5
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "cb4d07dc15440acf3d9ebe1ad41756c1",
+      "game_date": "2026-10-03",
+      "away": "NYY",
+      "home": "TB",
+      "away_name": "New York Yankees",
+      "home_name": "Tampa Bay Rays",
+      "label": "NYY @ TB",
+      "proj_value": null,
+      "proj_prob": 0.595,
+      "market_value": -135.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-01T14:12:49.434359Z",
+      "graded_at": null,
+      "extra": {
+        "home_sp": "Drew Rasmussen",
+        "run_line": -1.5
+      }
+    }
+  ]
+}
