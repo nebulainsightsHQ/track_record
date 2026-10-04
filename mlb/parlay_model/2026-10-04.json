@@ -1,0 +1,84 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-10-04",
+  "models": [
+    "parlay_v1"
+  ],
+  "exported_at_utc": "2026-10-04T14:50:03.786648Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "parlay_model",
+      "model": "parlay_v1",
+      "entity_key": "2026-10-04:pair",
+      "game_date": "2026-10-04",
+      "away": null,
+      "home": null,
+      "away_name": null,
+      "home_name": null,
+      "label": "The confident pair: LAD, MIL",
+      "proj_value": 171.0,
+      "proj_prob": 0.369598,
+      "market_value": 179.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-04T14:40:02.316535Z",
+      "graded_at": null,
+      "extra": {
+        "band": {
+          "max_american": null,
+          "min_american": null
+        },
+        "card": "pair",
+        "legs": [
+          {
+            "side": "home",
+            "team": "LAD",
+            "price": -156,
+            "decimal": 1.641026,
+            "matchup": "ATL @ LAD",
+            "game_key": "583202487b52f61769b2404a64e01c77",
+            "overround": 1.044158,
+            "team_name": "Los Angeles Dodgers",
+            "model_prob": 0.653,
+            "market_prob": 0.583604,
+            "other_price": 130
+          },
+          {
+            "side": "home",
+            "team": "MIL",
+            "price": -143,
+            "decimal": 1.699301,
+            "matchup": "SD @ MIL",
+            "game_key": "6da40e91a31110e51e84ba5671996deb",
+            "overround": 1.045098,
+            "team_name": "Milwaukee Brewers",
+            "model_prob": 0.566,
+            "market_prob": 0.563083,
+            "other_price": 119
+          }
+        ],
+        "title": "The confident pair",
+        "n_legs": 2,
+        "price_basis": "opening consensus moneyline (F16a per-book-earliest, DK/FD/MGM median)",
+        "rules_version": "parlay_v1",
+        "breakeven_prob": 0.358603,
+        "model_combined": 0.369598,
+        "market_combined": 0.328618,
+        "offered_decimal": 2.788596,
+        "offered_american": 179,
+        "rules_fingerprint": "bc9ad231011ce67cc361213a196fa2305966e399b69cf690976400a1077828f0",
+        "fair_decimal_model": 2.705642,
+        "fair_decimal_market": 3.043048,
+        "fair_american_market": 204
+      }
+    }
+  ]
+}
