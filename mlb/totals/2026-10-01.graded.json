@@ -1,0 +1,70 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "totals",
+  "date_et": "2026-10-01",
+  "exported_at_utc": "2026-10-04T02:10:43.804194Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 4,
+  "graded_count": 3,
+  "complete": false,
+  "rows": [
+    {
+      "entity_key": "347a2e725dd11a54a1d964eae3d04dd2",
+      "model": "clean_v2",
+      "game_date": "2026-10-03",
+      "label": "SD @ MIL",
+      "proj_value": 8.29,
+      "proj_prob": null,
+      "market_value": 7.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "graded_at": null
+    },
+    {
+      "entity_key": "5524c44b05e28aa899909c9e001184ec",
+      "model": "clean_v2",
+      "game_date": "2026-10-01",
+      "label": "PHI @ ATL",
+      "proj_value": 8.86,
+      "proj_prob": null,
+      "market_value": 7.5,
+      "actual_value": 8.0,
+      "result": "Over",
+      "correct": null,
+      "error": 0.859999999999999,
+      "graded_at": "2026-10-04T01:26:14.438571Z"
+    },
+    {
+      "entity_key": "5d13b613a334039f0694d8c95af28728",
+      "model": "clean_v2",
+      "game_date": "2026-10-03",
+      "label": "CWS @ CLE",
+      "proj_value": 8.57,
+      "proj_prob": null,
+      "market_value": 7.0,
+      "actual_value": 3.0,
+      "result": "Under",
+      "correct": null,
+      "error": 5.57,
+      "graded_at": "2026-10-04T01:26:17.602176Z"
+    },
+    {
+      "entity_key": "cb4d07dc15440acf3d9ebe1ad41756c1",
+      "model": "clean_v2",
+      "game_date": "2026-10-03",
+      "label": "NYY @ TB",
+      "proj_value": 8.25,
+      "proj_prob": null,
+      "market_value": 7.0,
+      "actual_value": 1.0,
+      "result": "Under",
+      "correct": null,
+      "error": 7.25,
+      "graded_at": "2026-10-04T01:26:17.654751Z"
+    }
+  ]
+}
