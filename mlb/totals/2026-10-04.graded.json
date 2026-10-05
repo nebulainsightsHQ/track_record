@@ -1,0 +1,70 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "totals",
+  "date_et": "2026-10-04",
+  "exported_at_utc": "2026-10-05T14:50:04.607229Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 4,
+  "graded_count": 2,
+  "complete": false,
+  "rows": [
+    {
+      "entity_key": "4be245ad03895bcafcdc42d7d926b675",
+      "model": "clean_v2",
+      "game_date": "2026-10-05",
+      "label": "NYY @ TB",
+      "proj_value": 7.91,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "graded_at": null
+    },
+    {
+      "entity_key": "583202487b52f61769b2404a64e01c77",
+      "model": "clean_v2",
+      "game_date": "2026-10-04",
+      "label": "ATL @ LAD",
+      "proj_value": 8.75,
+      "proj_prob": null,
+      "market_value": 7.0,
+      "actual_value": 5.0,
+      "result": "Under",
+      "correct": null,
+      "error": 3.75,
+      "graded_at": "2026-10-05T14:12:48.034964Z"
+    },
+    {
+      "entity_key": "6da40e91a31110e51e84ba5671996deb",
+      "model": "clean_v2",
+      "game_date": "2026-10-04",
+      "label": "SD @ MIL",
+      "proj_value": 8.6,
+      "proj_prob": null,
+      "market_value": 7.0,
+      "actual_value": 7.0,
+      "result": "Push",
+      "correct": null,
+      "error": 1.6,
+      "graded_at": "2026-10-05T02:55:17.970192Z"
+    },
+    {
+      "entity_key": "ccd487a87bb73145e3f12dd3a765ad47",
+      "model": "clean_v2",
+      "game_date": "2026-10-05",
+      "label": "CWS @ CLE",
+      "proj_value": 7.87,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "graded_at": null
+    }
+  ]
+}

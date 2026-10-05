@@ -1,0 +1,84 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-10-05",
+  "models": [
+    "parlay_v1"
+  ],
+  "exported_at_utc": "2026-10-05T14:50:04.534516Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "parlay_model",
+      "model": "parlay_v1",
+      "entity_key": "2026-10-05:pair",
+      "game_date": "2026-10-05",
+      "away": null,
+      "home": null,
+      "away_name": null,
+      "home_name": null,
+      "label": "The confident pair: CLE, NYY",
+      "proj_value": 272.0,
+      "proj_prob": 0.269037,
+      "market_value": 190.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-05T14:40:02.448163Z",
+      "graded_at": null,
+      "extra": {
+        "band": {
+          "max_american": null,
+          "min_american": null
+        },
+        "card": "pair",
+        "legs": [
+          {
+            "side": "home",
+            "team": "CLE",
+            "price": -157,
+            "decimal": 1.636943,
+            "matchup": "CWS @ CLE",
+            "game_key": "ccd487a87bb73145e3f12dd3a765ad47",
+            "overround": 1.041929,
+            "team_name": "Cleveland Guardians",
+            "model_prob": 0.537,
+            "market_prob": 0.586311,
+            "other_price": 132
+          },
+          {
+            "side": "away",
+            "team": "NYY",
+            "price": -130,
+            "decimal": 1.769231,
+            "matchup": "NYY @ TB",
+            "game_key": "4be245ad03895bcafcdc42d7d926b675",
+            "overround": 1.043686,
+            "team_name": "New York Yankees",
+            "model_prob": 0.501,
+            "market_prob": 0.541559,
+            "other_price": 109
+          }
+        ],
+        "title": "The confident pair",
+        "n_legs": 2,
+        "price_basis": "opening consensus moneyline (F16a per-book-earliest, DK/FD/MGM median)",
+        "rules_version": "parlay_v1",
+        "breakeven_prob": 0.345288,
+        "model_combined": 0.269037,
+        "market_combined": 0.317522,
+        "offered_decimal": 2.896129,
+        "offered_american": 190,
+        "rules_fingerprint": "bc9ad231011ce67cc361213a196fa2305966e399b69cf690976400a1077828f0",
+        "fair_decimal_model": 3.716961,
+        "fair_decimal_market": 3.149388,
+        "fair_american_market": 215
+      }
+    }
+  ]
+}
