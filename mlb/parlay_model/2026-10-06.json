@@ -1,0 +1,84 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-10-06",
+  "models": [
+    "parlay_v1"
+  ],
+  "exported_at_utc": "2026-10-06T14:50:04.565893Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "parlay_model",
+      "model": "parlay_v1",
+      "entity_key": "2026-10-06:pair",
+      "game_date": "2026-10-06",
+      "away": null,
+      "home": null,
+      "away_name": null,
+      "home_name": null,
+      "label": "The confident pair: LAD, SD",
+      "proj_value": 264.0,
+      "proj_prob": 0.275094,
+      "market_value": 231.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-06T14:40:02.655465Z",
+      "graded_at": null,
+      "extra": {
+        "band": {
+          "max_american": null,
+          "min_american": null
+        },
+        "card": "pair",
+        "legs": [
+          {
+            "side": "away",
+            "team": "LAD",
+            "price": -110,
+            "decimal": 1.909091,
+            "matchup": "LAD @ ATL",
+            "game_key": "1bc3bf1d3034010bdfb31d928a71177a",
+            "overround": 1.045341,
+            "team_name": "Los Angeles Dodgers",
+            "model_prob": 0.527,
+            "market_prob": 0.50109,
+            "other_price": -109
+          },
+          {
+            "side": "home",
+            "team": "SD",
+            "price": -136,
+            "decimal": 1.735294,
+            "matchup": "MIL @ SD",
+            "game_key": "62d8e1c18355ab6b3913d7a28fa677c2",
+            "overround": 1.041387,
+            "team_name": "San Diego Padres",
+            "model_prob": 0.522,
+            "market_prob": 0.553369,
+            "other_price": 115
+          }
+        ],
+        "title": "The confident pair",
+        "n_legs": 2,
+        "price_basis": "opening consensus moneyline (F16a per-book-earliest, DK/FD/MGM median)",
+        "rules_version": "parlay_v1",
+        "breakeven_prob": 0.301856,
+        "model_combined": 0.275094,
+        "market_combined": 0.277287,
+        "offered_decimal": 3.312834,
+        "offered_american": 231,
+        "rules_fingerprint": "bc9ad231011ce67cc361213a196fa2305966e399b69cf690976400a1077828f0",
+        "fair_decimal_model": 3.635121,
+        "fair_decimal_market": 3.606367,
+        "fair_american_market": 261
+      }
+    }
+  ]
+}
