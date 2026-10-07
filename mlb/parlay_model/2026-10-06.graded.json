@@ -1,0 +1,28 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-10-06",
+  "exported_at_utc": "2026-10-07T14:50:04.842759Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 1,
+  "graded_count": 1,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2026-10-06:pair",
+      "model": "parlay_v1",
+      "game_date": "2026-10-06",
+      "label": "The confident pair: LAD, SD",
+      "proj_value": 264.0,
+      "proj_prob": 0.275094,
+      "market_value": 231.0,
+      "actual_value": 1.0,
+      "result": "win",
+      "correct": true,
+      "error": -0.724906,
+      "graded_at": "2026-10-07T14:40:01.798338Z"
+    }
+  ]
+}

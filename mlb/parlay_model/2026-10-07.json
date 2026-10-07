@@ -1,0 +1,166 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-10-07",
+  "models": [
+    "parlay_v1"
+  ],
+  "exported_at_utc": "2026-10-07T14:50:04.648162Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 2,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "parlay_model",
+      "model": "parlay_v1",
+      "entity_key": "2026-10-07:pair",
+      "game_date": "2026-10-07",
+      "away": null,
+      "home": null,
+      "away_name": null,
+      "home_name": null,
+      "label": "The confident pair: LAD, NYY",
+      "proj_value": 181.0,
+      "proj_prob": 0.35547,
+      "market_value": 170.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-07T14:40:01.730154Z",
+      "graded_at": null,
+      "extra": {
+        "band": {
+          "max_american": null,
+          "min_american": null
+        },
+        "card": "pair",
+        "legs": [
+          {
+            "side": "away",
+            "team": "LAD",
+            "price": -149,
+            "decimal": 1.671141,
+            "matchup": "LAD @ ATL",
+            "game_key": "2f041c00e4bddc69bd1bbfbd40cc3c09",
+            "overround": 1.044822,
+            "team_name": "Los Angeles Dodgers",
+            "model_prob": 0.615,
+            "market_prob": 0.572723,
+            "other_price": 124
+          },
+          {
+            "side": "home",
+            "team": "NYY",
+            "price": -162,
+            "decimal": 1.617284,
+            "matchup": "TB @ NYY",
+            "game_key": "aa266da6f8d98646bc59d18ddbc5b2de",
+            "overround": 1.043853,
+            "team_name": "New York Yankees",
+            "model_prob": 0.578,
+            "market_prob": 0.592345,
+            "other_price": 135
+          }
+        ],
+        "title": "The confident pair",
+        "n_legs": 2,
+        "price_basis": "opening consensus moneyline (F16a per-book-earliest, DK/FD/MGM median)",
+        "rules_version": "parlay_v1",
+        "breakeven_prob": 0.369999,
+        "model_combined": 0.35547,
+        "market_combined": 0.339249,
+        "offered_decimal": 2.702709,
+        "offered_american": 170,
+        "rules_fingerprint": "bc9ad231011ce67cc361213a196fa2305966e399b69cf690976400a1077828f0",
+        "fair_decimal_model": 2.813177,
+        "fair_decimal_market": 2.947684,
+        "fair_american_market": 195
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "parlay_model",
+      "model": "parlay_v1",
+      "entity_key": "2026-10-07:trio",
+      "game_date": "2026-10-07",
+      "away": null,
+      "home": null,
+      "away_name": null,
+      "home_name": null,
+      "label": "The banded trio: LAD, NYY, SD",
+      "proj_value": 447.0,
+      "proj_prob": 0.182712,
+      "market_value": 405.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-07T14:40:01.730154Z",
+      "graded_at": null,
+      "extra": {
+        "band": {
+          "max_american": 950,
+          "min_american": 300
+        },
+        "card": "trio",
+        "legs": [
+          {
+            "side": "away",
+            "team": "LAD",
+            "price": -149,
+            "decimal": 1.671141,
+            "matchup": "LAD @ ATL",
+            "game_key": "2f041c00e4bddc69bd1bbfbd40cc3c09",
+            "overround": 1.044822,
+            "team_name": "Los Angeles Dodgers",
+            "model_prob": 0.615,
+            "market_prob": 0.572723,
+            "other_price": 124
+          },
+          {
+            "side": "home",
+            "team": "NYY",
+            "price": -162,
+            "decimal": 1.617284,
+            "matchup": "TB @ NYY",
+            "game_key": "aa266da6f8d98646bc59d18ddbc5b2de",
+            "overround": 1.043853,
+            "team_name": "New York Yankees",
+            "model_prob": 0.578,
+            "market_prob": 0.592345,
+            "other_price": 135
+          },
+          {
+            "side": "home",
+            "team": "SD",
+            "price": -115,
+            "decimal": 1.869565,
+            "matchup": "MIL @ SD",
+            "game_key": "3c71012ad7a75e6c11575285e6841e14",
+            "overround": 1.047079,
+            "team_name": "San Diego Padres",
+            "model_prob": 0.514,
+            "market_prob": 0.510834,
+            "other_price": -105
+          }
+        ],
+        "title": "The banded trio",
+        "n_legs": 3,
+        "price_basis": "opening consensus moneyline (F16a per-book-earliest, DK/FD/MGM median)",
+        "rules_version": "parlay_v1",
+        "breakeven_prob": 0.197906,
+        "model_combined": 0.182712,
+        "market_combined": 0.1733,
+        "offered_decimal": 5.052892,
+        "offered_american": 405,
+        "rules_fingerprint": "bc9ad231011ce67cc361213a196fa2305966e399b69cf690976400a1077828f0",
+        "fair_decimal_model": 5.473107,
+        "fair_decimal_market": 5.770333,
+        "fair_american_market": 477
+      }
+    }
+  ]
+}

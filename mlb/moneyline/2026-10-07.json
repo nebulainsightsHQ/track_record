@@ -1,0 +1,66 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "moneyline",
+  "date_et": "2026-10-07",
+  "models": [
+    "clean_v2"
+  ],
+  "exported_at_utc": "2026-10-07T14:50:04.648008Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 2,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "2f041c00e4bddc69bd1bbfbd40cc3c09",
+      "game_date": "2026-10-07",
+      "away": "LAD",
+      "home": "ATL",
+      "away_name": "Los Angeles Dodgers",
+      "home_name": "Atlanta Braves",
+      "label": "LAD @ ATL",
+      "proj_value": null,
+      "proj_prob": 0.385,
+      "market_value": 124.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-07T14:12:46.027544Z",
+      "graded_at": null,
+      "extra": {
+        "away_sp": "Tyler Glasnow",
+        "home_sp": "Tyler Mahle",
+        "run_line": 1.5
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "moneyline",
+      "model": "clean_v2",
+      "entity_key": "3c71012ad7a75e6c11575285e6841e14",
+      "game_date": "2026-10-07",
+      "away": "MIL",
+      "home": "SD",
+      "away_name": "Milwaukee Brewers",
+      "home_name": "San Diego Padres",
+      "label": "MIL @ SD",
+      "proj_value": null,
+      "proj_prob": 0.514,
+      "market_value": -115.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-07T14:12:46.027544Z",
+      "graded_at": null,
+      "extra": {
+        "home_sp": "Walker Buehler",
+        "run_line": 1.5
+      }
+    }
+  ]
+}
