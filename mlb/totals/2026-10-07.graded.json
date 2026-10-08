@@ -1,0 +1,42 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "totals",
+  "date_et": "2026-10-07",
+  "exported_at_utc": "2026-10-08T14:50:04.695221Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 2,
+  "graded_count": 2,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "2f041c00e4bddc69bd1bbfbd40cc3c09",
+      "model": "clean_v2",
+      "game_date": "2026-10-07",
+      "label": "LAD @ ATL",
+      "proj_value": 8.38,
+      "proj_prob": null,
+      "market_value": 7.5,
+      "actual_value": 5.0,
+      "result": "Under",
+      "correct": null,
+      "error": 3.38,
+      "graded_at": "2026-10-08T14:12:49.839168Z"
+    },
+    {
+      "entity_key": "3c71012ad7a75e6c11575285e6841e14",
+      "model": "clean_v2",
+      "game_date": "2026-10-07",
+      "label": "MIL @ SD",
+      "proj_value": 8.99,
+      "proj_prob": null,
+      "market_value": 7.5,
+      "actual_value": 4.0,
+      "result": "Under",
+      "correct": null,
+      "error": 4.99,
+      "graded_at": "2026-10-08T14:12:49.942701Z"
+    }
+  ]
+}
