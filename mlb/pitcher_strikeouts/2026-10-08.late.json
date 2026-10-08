@@ -1,0 +1,77 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "mlb_k",
+  "date_et": "2026-10-08",
+  "models": [
+    "mlb_k_props_v1"
+  ],
+  "exported_at_utc": "2026-10-08T15:20:03.927756Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "late": true,
+  "late_note": "This day was exported by a RECOVERED run, not the scheduled pre-game one, so its commit timestamp may not precede these games. Read it as a record, not as pre-game evidence — check the commit date yourself.",
+  "row_count": 2,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "849832:696146",
+      "game_date": "2026-10-09",
+      "away": "CLE",
+      "home": "CWS",
+      "away_name": "Cleveland Guardians",
+      "home_name": "Chicago White Sox",
+      "label": "Hagen Smith (CWS) Ks vs CLE",
+      "proj_value": 2.69,
+      "proj_prob": null,
+      "market_value": 2.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-08T14:30:49.582739Z",
+      "graded_at": null,
+      "extra": {
+        "team": "CWS",
+        "season": 2026,
+        "is_home": true,
+        "n_books": 4,
+        "pitcher": "Hagen Smith",
+        "opponent": "CLE",
+        "pitcher_id": 696146
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "849832:800048",
+      "game_date": "2026-10-09",
+      "away": "CLE",
+      "home": "CWS",
+      "away_name": "Cleveland Guardians",
+      "home_name": "Chicago White Sox",
+      "label": "Parker Messick (CLE) Ks vs CWS",
+      "proj_value": 5.88,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-08T14:30:49.582739Z",
+      "graded_at": null,
+      "extra": {
+        "team": "CLE",
+        "season": 2026,
+        "is_home": false,
+        "n_books": 7,
+        "pitcher": "Parker Messick",
+        "opponent": "CWS",
+        "pitcher_id": 800048
+      }
+    }
+  ]
+}
