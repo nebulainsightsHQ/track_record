@@ -3,12 +3,12 @@
   "sport": "mlb",
   "market": "moneyline",
   "date_et": "2026-10-09",
-  "exported_at_utc": "2026-10-11T14:50:04.678416Z",
+  "exported_at_utc": "2026-10-12T14:50:04.354023Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 2,
-  "graded_count": 1,
-  "complete": false,
+  "graded_count": 2,
+  "complete": true,
   "rows": [
     {
       "entity_key": "62bf363a77455f7a8b48838e7792f60b",
@@ -32,11 +32,11 @@
       "proj_value": null,
       "proj_prob": 0.455,
       "market_value": -110.0,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "home",
+      "correct": false,
+      "error": -0.545,
+      "graded_at": "2026-10-12T14:12:51.800494Z"
     }
   ]
 }
