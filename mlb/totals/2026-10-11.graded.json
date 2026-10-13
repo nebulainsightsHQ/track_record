@@ -1,0 +1,28 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "mlb",
+  "market": "totals",
+  "date_et": "2026-10-11",
+  "exported_at_utc": "2026-10-13T14:50:04.931087Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 1,
+  "graded_count": 1,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "362511067a27b4ef89418639e15e80b6",
+      "model": "clean_v2",
+      "game_date": "2026-10-12",
+      "label": "CLE @ TB",
+      "proj_value": 8.48,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": 10.0,
+      "result": "Over",
+      "correct": null,
+      "error": -1.52,
+      "graded_at": "2026-10-13T14:12:53.842404Z"
+    }
+  ]
+}
