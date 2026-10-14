@@ -1,0 +1,75 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "mlb_k",
+  "date_et": "2026-10-14",
+  "models": [
+    "mlb_k_props_v1"
+  ],
+  "exported_at_utc": "2026-10-14T14:50:05.263969Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 2,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "849811:605483",
+      "game_date": "2026-10-15",
+      "away": "MIL",
+      "home": "LAD",
+      "away_name": "Milwaukee Brewers",
+      "home_name": "Los Angeles Dodgers",
+      "label": "Blake Snell (LAD) Ks vs MIL",
+      "proj_value": 5.93,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-14T14:30:48.567914Z",
+      "graded_at": null,
+      "extra": {
+        "team": "LAD",
+        "season": 2026,
+        "is_home": true,
+        "n_books": 3,
+        "pitcher": "Blake Snell",
+        "opponent": "MIL",
+        "pitcher_id": 605483
+      }
+    },
+    {
+      "sport": "mlb",
+      "market": "mlb_k",
+      "model": "mlb_k_props_v1",
+      "entity_key": "849811:688107",
+      "game_date": "2026-10-15",
+      "away": "MIL",
+      "home": "LAD",
+      "away_name": "Milwaukee Brewers",
+      "home_name": "Los Angeles Dodgers",
+      "label": "Robert Gasser (MIL) Ks vs LAD",
+      "proj_value": 4.7,
+      "proj_prob": null,
+      "market_value": 3.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-14T14:30:48.567914Z",
+      "graded_at": null,
+      "extra": {
+        "team": "MIL",
+        "season": 2026,
+        "is_home": false,
+        "n_books": 6,
+        "pitcher": "Robert Gasser",
+        "opponent": "LAD",
+        "pitcher_id": 688107
+      }
+    }
+  ]
+}
