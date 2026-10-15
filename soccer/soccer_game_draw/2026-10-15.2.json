@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "soccer",
+  "market": "soccer_game_draw",
+  "date_et": "2026-10-15",
+  "models": [
+    "soccer_game_v0_1_20260913"
+  ],
+  "exported_at_utc": "2026-10-15T15:20:05.349698Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "soccer",
+      "market": "soccer_game_draw",
+      "model": "soccer_game_v0_1_20260913",
+      "entity_key": "f3034246520a2ee4ff0ac0d5074966f8",
+      "game_date": "2026-10-17",
+      "away": "Paris Saint Germain",
+      "home": "Strasbourg",
+      "away_name": "Paris SG",
+      "home_name": "Strasbourg",
+      "label": "Paris Saint Germain at Strasbourg -- draw probability",
+      "proj_value": null,
+      "proj_prob": 0.221843,
+      "market_value": 0.179196391958893,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-15T15:01:32.932442Z",
+      "graded_at": null,
+      "extra": {
+        "slot": "primary",
+        "league": "france_ligue_one",
+        "season": 2026,
+        "lead_hours": 48.25,
+        "kickoff_utc": "2026-10-17T15:15:00Z",
+        "market_p_away": 0.6617281256684935,
+        "market_p_draw": 0.17919639195889345,
+        "market_p_home": 0.15907548237261313,
+        "season_source": "derived",
+        "proj_draw_prob": 0.221843,
+        "name_resolution": "learned/learned",
+        "market_1x2_books": 9,
+        "proj_lambda_away": 2.043989,
+        "proj_lambda_home": 1.140149,
+        "proj_away_win_prob": 0.576786,
+        "proj_home_win_prob": 0.201372,
+        "market_1x2_snapshot": "2026-09-21",
+        "market_snapshot_type": "opening"
+      }
+    }
+  ]
+}

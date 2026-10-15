@@ -1,0 +1,86 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "parlay_model",
+  "date_et": "2026-10-15",
+  "models": [
+    "parlay_v1"
+  ],
+  "exported_at_utc": "2026-10-15T15:20:04.249768Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "late": true,
+  "late_note": "This day was exported by a RECOVERED run, not the scheduled pre-game one, so its commit timestamp may not precede these games. Read it as a record, not as pre-game evidence — check the commit date yourself.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "parlay_model",
+      "model": "parlay_v1",
+      "entity_key": "2026-10-15:pair",
+      "game_date": "2026-10-15",
+      "away": null,
+      "home": null,
+      "away_name": null,
+      "home_name": null,
+      "label": "The confident pair: LAD, CLE",
+      "proj_value": 215.0,
+      "proj_prob": 0.317534,
+      "market_value": 187.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-15T14:40:02.170890Z",
+      "graded_at": null,
+      "extra": {
+        "band": {
+          "max_american": null,
+          "min_american": null
+        },
+        "card": "pair",
+        "legs": [
+          {
+            "side": "home",
+            "team": "LAD",
+            "price": -157,
+            "decimal": 1.636943,
+            "matchup": "MIL @ LAD",
+            "game_key": "ab3e5655be6b32e0853d683e51a60baa",
+            "overround": 1.041929,
+            "team_name": "Los Angeles Dodgers",
+            "model_prob": 0.613,
+            "market_prob": 0.586311,
+            "other_price": 132
+          },
+          {
+            "side": "home",
+            "team": "CLE",
+            "price": -133,
+            "decimal": 1.75188,
+            "matchup": "TB @ CLE",
+            "game_key": "a681025734060bef9fcce7ea7175674c",
+            "overround": 1.047006,
+            "team_name": "Cleveland Guardians",
+            "model_prob": 0.518,
+            "market_prob": 0.545188,
+            "other_price": 110
+          }
+        ],
+        "title": "The confident pair",
+        "n_legs": 2,
+        "price_basis": "opening consensus moneyline (F16a per-book-earliest, DK/FD/MGM median)",
+        "rules_version": "parlay_v1",
+        "breakeven_prob": 0.348708,
+        "model_combined": 0.317534,
+        "market_combined": 0.31965,
+        "offered_decimal": 2.867727,
+        "offered_american": 187,
+        "rules_fingerprint": "bc9ad231011ce67cc361213a196fa2305966e399b69cf690976400a1077828f0",
+        "fair_decimal_model": 3.149269,
+        "fair_decimal_market": 3.128421,
+        "fair_american_market": 213
+      }
+    }
+  ]
+}
