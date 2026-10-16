@@ -1,0 +1,40 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "mlb",
+  "market": "totals",
+  "date_et": "2026-10-16",
+  "models": [
+    "clean_v2"
+  ],
+  "exported_at_utc": "2026-10-16T14:50:04.500052Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "mlb",
+      "market": "totals",
+      "model": "clean_v2",
+      "entity_key": "b9d2e07cf437b5643307aba274c45a74",
+      "game_date": "2026-10-16",
+      "away": "TB",
+      "home": "CLE",
+      "away_name": "Tampa Bay Rays",
+      "home_name": "Cleveland Guardians",
+      "label": "TB @ CLE",
+      "proj_value": 8.33,
+      "proj_prob": null,
+      "market_value": 6.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-10-16T14:12:49.583676Z",
+      "graded_at": null,
+      "extra": {
+        "away_sp": "Nick Martinez",
+        "run_line": 1.5
+      }
+    }
+  ]
+}
