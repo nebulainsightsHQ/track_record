@@ -1,0 +1,70 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "soccer",
+  "market": "soccer_game_ou",
+  "date_et": "2026-10-15",
+  "exported_at_utc": "2026-10-20T15:40:08.374053Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 4,
+  "graded_count": 4,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "764e6513cb3f348881503df70ccb90e0",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-10-17",
+      "label": "Chelsea at Everton -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.493622,
+      "market_value": 2.5,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.493622,
+      "graded_at": "2026-10-20T15:04:42.362265Z"
+    },
+    {
+      "entity_key": "7895f97f2f9577f3b13287a3d086859d",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-10-17",
+      "label": "Hull City at Fulham -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.510506,
+      "market_value": 2.5,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.510506,
+      "graded_at": "2026-10-20T15:04:42.362265Z"
+    },
+    {
+      "entity_key": "ad25a350c89b64715e15c59cde5653d3",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-10-17",
+      "label": "Brest at Lille -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.514618,
+      "market_value": 2.5,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.514618,
+      "graded_at": "2026-10-20T15:04:42.362265Z"
+    },
+    {
+      "entity_key": "d1bbbdcd3d430e70091b518369b559cf",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-10-17",
+      "label": "Aston Villa at Newcastle United -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.574905,
+      "market_value": 2.5,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.574905,
+      "graded_at": "2026-10-20T15:04:42.362265Z"
+    }
+  ]
+}
