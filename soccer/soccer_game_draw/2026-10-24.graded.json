@@ -1,0 +1,28 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "soccer",
+  "market": "soccer_game_draw",
+  "date_et": "2026-10-24",
+  "exported_at_utc": "2026-11-13T05:43:31.614592Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 1,
+  "graded_count": 1,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "85e464708d03287f24590e1478aeca31",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-10-26",
+      "label": "CA Osasuna at Sevilla -- draw probability",
+      "proj_value": null,
+      "proj_prob": 0.254601,
+      "market_value": 0.27771137234442,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": null,
+      "error": 0.254601,
+      "graded_at": "2026-10-27T12:01:08.366972Z"
+    }
+  ]
+}

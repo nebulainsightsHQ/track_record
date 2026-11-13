@@ -1,0 +1,42 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "soccer",
+  "market": "soccer_game_ou",
+  "date_et": "2026-10-31",
+  "exported_at_utc": "2026-11-13T05:43:31.406112Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 2,
+  "graded_count": 2,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "0f552d9c6990c69474f50ff2fb54e9a3",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-11-02",
+      "label": "Everton at Newcastle United -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.50902,
+      "market_value": 2.5,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.50902,
+      "graded_at": "2026-11-04T05:41:26.123369Z"
+    },
+    {
+      "entity_key": "5118966f484adf525196d196a61bc5d6",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-11-02",
+      "label": "Brest at Lorient -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.488793,
+      "market_value": 2.5,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.488793,
+      "graded_at": "2026-11-04T05:41:26.123369Z"
+    }
+  ]
+}
