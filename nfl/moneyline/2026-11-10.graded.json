@@ -3,12 +3,12 @@
   "sport": "nfl",
   "market": "nfl_game_ml",
   "date_et": "2026-11-10",
-  "exported_at_utc": "2026-11-13T15:50:04.456465Z",
+  "exported_at_utc": "2026-11-18T15:50:06.805932Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 14,
-  "graded_count": 1,
-  "complete": false,
+  "graded_count": 14,
+  "complete": true,
   "rows": [
     {
       "entity_key": "2026_10_BUF_NYJ",
@@ -18,11 +18,11 @@
       "proj_value": null,
       "proj_prob": 0.2557,
       "market_value": 0.2134,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.2557,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_CAR_NO",
@@ -32,11 +32,11 @@
       "proj_value": null,
       "proj_prob": 0.4873,
       "market_value": 0.5196,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.4873,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_HOU_CLE",
@@ -46,11 +46,11 @@
       "proj_value": null,
       "proj_prob": 0.3659,
       "market_value": 0.3296,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": false,
+      "error": -0.6341,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_JAX_TEN",
@@ -60,11 +60,11 @@
       "proj_value": null,
       "proj_prob": 0.2286,
       "market_value": 0.1842,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.2286,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_KC_ATL",
@@ -74,11 +74,11 @@
       "proj_value": null,
       "proj_prob": 0.3066,
       "market_value": 0.3789,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.3066,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_LA_ARI",
@@ -88,11 +88,11 @@
       "proj_value": null,
       "proj_prob": 0.2974,
       "market_value": 0.2136,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.2974,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_LAC_BAL",
@@ -102,11 +102,11 @@
       "proj_value": null,
       "proj_prob": 0.6011,
       "market_value": 0.6742,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.6011,
+      "graded_at": "2026-11-18T06:04:11.811452Z"
     },
     {
       "entity_key": "2026_10_MIA_IND",
@@ -116,11 +116,11 @@
       "proj_value": null,
       "proj_prob": 0.5949,
       "market_value": 0.5526,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.4051,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_MIN_GB",
@@ -130,11 +130,11 @@
       "proj_value": null,
       "proj_prob": 0.6047,
       "market_value": 0.6416,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.6047,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_NE_DET",
@@ -144,11 +144,11 @@
       "proj_value": null,
       "proj_prob": 0.5837,
       "market_value": 0.583,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.4163,
+      "graded_at": "2026-11-15T19:07:36.160560Z"
     },
     {
       "entity_key": "2026_10_PIT_CIN",
@@ -158,11 +158,11 @@
       "proj_value": null,
       "proj_prob": 0.5993,
       "market_value": 0.6322,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.4007,
+      "graded_at": "2026-11-16T06:07:47.000377Z"
     },
     {
       "entity_key": "2026_10_SEA_LV",
@@ -172,11 +172,11 @@
       "proj_value": null,
       "proj_prob": 0.2612,
       "market_value": 0.3827,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.2612,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_SF_DAL",
@@ -186,11 +186,11 @@
       "proj_value": null,
       "proj_prob": 0.422,
       "market_value": 0.3425,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.422,
+      "graded_at": "2026-11-16T02:07:51.196061Z"
     },
     {
       "entity_key": "2026_10_WAS_NYG",
