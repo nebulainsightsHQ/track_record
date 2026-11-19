@@ -1,0 +1,61 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "soccer",
+  "market": "soccer_game_home",
+  "date_et": "2026-11-19",
+  "models": [
+    "soccer_game_v0_1_20260913"
+  ],
+  "exported_at_utc": "2026-11-19T16:20:07.327111Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "soccer",
+      "market": "soccer_game_home",
+      "model": "soccer_game_v0_1_20260913",
+      "entity_key": "651c1847b5cdcc85e60a140edd2282c4",
+      "game_date": "2026-11-21",
+      "away": "Paris Saint Germain",
+      "home": "Nice",
+      "away_name": "Paris SG",
+      "home_name": "Nice",
+      "label": "Paris Saint Germain at Nice -- Nice win probability",
+      "proj_value": null,
+      "proj_prob": 0.148829,
+      "market_value": 0.150910260315076,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-11-19T16:01:10.720933Z",
+      "graded_at": null,
+      "extra": {
+        "slot": "primary",
+        "league": "france_ligue_one",
+        "season": 2026,
+        "lead_hours": 48.25,
+        "kickoff_utc": "2026-11-21T16:15:00Z",
+        "market_total": 3.5,
+        "market_p_away": 0.6571638692408241,
+        "market_p_draw": 0.1919258704440996,
+        "market_p_home": 0.15091026031507634,
+        "market_p_over": 0.49490917976704407,
+        "season_source": "derived",
+        "proj_draw_prob": 0.196206,
+        "proj_over_prob": 0.419287,
+        "name_resolution": "learned/learned",
+        "market_1x2_books": 9,
+        "proj_lambda_away": 2.286008,
+        "proj_lambda_home": 1.012299,
+        "market_total_books": 3,
+        "proj_away_win_prob": 0.654965,
+        "proj_home_win_prob": 0.148829,
+        "market_1x2_snapshot": "2026-11-02",
+        "market_snapshot_type": "opening",
+        "market_total_snapshot": "2026-11-02"
+      }
+    }
+  ]
+}
