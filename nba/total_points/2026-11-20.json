@@ -1,0 +1,102 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "nba",
+  "market": "nba_game_total",
+  "date_et": "2026-11-20",
+  "models": [
+    "nba_game_v1"
+  ],
+  "exported_at_utc": "2026-11-20T21:07:39.982001Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 3,
+  "rows": [
+    {
+      "sport": "nba",
+      "market": "nba_game_total",
+      "model": "nba_game_v1",
+      "entity_key": "10e9b9aca502ce158d6a3a91bf00bfd2",
+      "game_date": "2026-11-20",
+      "away": "IND",
+      "home": "CLE",
+      "away_name": "Indiana Pacers",
+      "home_name": "Cleveland Cavaliers",
+      "label": "IND at CLE -- total points",
+      "proj_value": 230.949742,
+      "proj_prob": null,
+      "market_value": 234.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-11-20T21:03:42.728607Z",
+      "graded_at": null,
+      "extra": {
+        "season": 2027,
+        "market_books": 4.0,
+        "commence_time": "2026-11-21T00:40:00+00:00",
+        "feature_nan_rate": 0.0,
+        "market_spread_home": -7.25,
+        "market_hours_before_tip": 24.829186
+      }
+    },
+    {
+      "sport": "nba",
+      "market": "nba_game_total",
+      "model": "nba_game_v1",
+      "entity_key": "6e1faf38d3fed9e0396d6613891770e1",
+      "game_date": "2026-11-20",
+      "away": "ORL",
+      "home": "BKN",
+      "away_name": "Orlando Magic",
+      "home_name": "Brooklyn Nets",
+      "label": "ORL at BKN -- total points",
+      "proj_value": 222.664094,
+      "proj_prob": null,
+      "market_value": 221.0,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-11-20T21:03:42.728607Z",
+      "graded_at": null,
+      "extra": {
+        "season": 2027,
+        "market_books": 2.0,
+        "commence_time": "2026-11-21T00:40:00+00:00",
+        "feature_nan_rate": 0.0,
+        "market_spread_home": 4.75,
+        "market_hours_before_tip": 24.829186
+      }
+    },
+    {
+      "sport": "nba",
+      "market": "nba_game_total",
+      "model": "nba_game_v1",
+      "entity_key": "f8ad540db00e4a4a360d67dfcb7a53b8",
+      "game_date": "2026-11-20",
+      "away": "CHA",
+      "home": "ATL",
+      "away_name": "Charlotte Hornets",
+      "home_name": "Atlanta Hawks",
+      "label": "CHA at ATL -- total points",
+      "proj_value": 217.88868,
+      "proj_prob": null,
+      "market_value": 218.5,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-11-20T21:03:42.728607Z",
+      "graded_at": null,
+      "extra": {
+        "season": 2027,
+        "market_books": 6.0,
+        "commence_time": "2026-11-21T00:10:00+00:00",
+        "feature_nan_rate": 0.0,
+        "market_spread_home": -5.25,
+        "market_hours_before_tip": 24.329186
+      }
+    }
+  ]
+}
