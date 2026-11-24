@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "soccer",
+  "market": "soccer_game_home",
+  "date_et": "2026-11-18",
+  "exported_at_utc": "2026-11-24T15:50:10.618971Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 3,
+  "graded_count": 3,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "5dcc9d2b0da87770a4f49e924275be39",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-11-20",
+      "label": "Le Havre at Troyes -- Troyes win probability",
+      "proj_value": null,
+      "proj_prob": 0.369978,
+      "market_value": 0.438247368220509,
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": null,
+      "error": -0.630022,
+      "graded_at": "2026-11-24T13:01:06.717505Z"
+    },
+    {
+      "entity_key": "cae480fb1195f0032554a268cb80eb44",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-11-20",
+      "label": "1. FC Köln at Bayern Munich -- Bayern Munich win probability",
+      "proj_value": null,
+      "proj_prob": 0.883533,
+      "market_value": 0.878716831739146,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": null,
+      "error": 0.883533,
+      "graded_at": "2026-11-24T13:01:06.717505Z"
+    },
+    {
+      "entity_key": "dcee36f9b8a9989972b6d4ddde76c4c7",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-11-20",
+      "label": "Espanyol at Athletic Bilbao -- Athletic Bilbao win probability",
+      "proj_value": null,
+      "proj_prob": 0.541873,
+      "market_value": 0.582957126582049,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": null,
+      "error": 0.541873,
+      "graded_at": "2026-11-24T13:01:06.717505Z"
+    }
+  ]
+}

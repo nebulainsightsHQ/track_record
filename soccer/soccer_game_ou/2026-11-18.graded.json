@@ -1,0 +1,42 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "soccer",
+  "market": "soccer_game_ou",
+  "date_et": "2026-11-18",
+  "exported_at_utc": "2026-11-24T15:50:10.619105Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 2,
+  "graded_count": 2,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "5dcc9d2b0da87770a4f49e924275be39",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-11-20",
+      "label": "Le Havre at Troyes -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.529626,
+      "market_value": 2.5,
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.470374,
+      "graded_at": "2026-11-24T13:01:06.717505Z"
+    },
+    {
+      "entity_key": "dcee36f9b8a9989972b6d4ddde76c4c7",
+      "model": "soccer_game_v0_1_20260913",
+      "game_date": "2026-11-20",
+      "label": "Espanyol at Athletic Bilbao -- over 2.5 goals",
+      "proj_value": null,
+      "proj_prob": 0.49783,
+      "market_value": 2.5,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.49783,
+      "graded_at": "2026-11-24T13:01:06.717505Z"
+    }
+  ]
+}
