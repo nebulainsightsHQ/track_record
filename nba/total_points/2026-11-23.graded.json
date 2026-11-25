@@ -3,12 +3,12 @@
   "sport": "nba",
   "market": "nba_game_total",
   "date_et": "2026-11-23",
-  "exported_at_utc": "2026-11-24T15:50:05.039909Z",
+  "exported_at_utc": "2026-11-25T15:50:05.469391Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 12,
-  "graded_count": 10,
-  "complete": false,
+  "graded_count": 12,
+  "complete": true,
   "rows": [
     {
       "entity_key": "17f31499f145cd9d3232819395d29448",
@@ -32,11 +32,11 @@
       "proj_value": 217.901543,
       "proj_prob": null,
       "market_value": 230.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 247.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -29.098457,
+      "graded_at": "2026-11-25T15:20:50.373358Z"
     },
     {
       "entity_key": "35ca45d3e548dc7207fd7f1696ab16f5",
@@ -74,11 +74,11 @@
       "proj_value": 228.122891,
       "proj_prob": null,
       "market_value": 238.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 221.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.12289100000001,
+      "graded_at": "2026-11-25T15:20:50.373358Z"
     },
     {
       "entity_key": "6caeb7cce7c8340fed588f3badd83fe0",
