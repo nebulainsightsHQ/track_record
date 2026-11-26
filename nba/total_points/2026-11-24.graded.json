@@ -3,12 +3,12 @@
   "sport": "nba",
   "market": "nba_game_total",
   "date_et": "2026-11-24",
-  "exported_at_utc": "2026-11-25T15:50:05.075438Z",
+  "exported_at_utc": "2026-11-26T15:50:05.850885Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 6,
-  "graded_count": 1,
-  "complete": false,
+  "graded_count": 6,
+  "complete": true,
   "rows": [
     {
       "entity_key": "07421d1675d6bc51bb5fa91f84a09eb3",
@@ -18,11 +18,11 @@
       "proj_value": 226.436432,
       "proj_prob": null,
       "market_value": 223.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 219.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 7.436432,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "42f48a4769eab3d1472d76aac0fd0fa7",
@@ -46,11 +46,11 @@
       "proj_value": 235.950421,
       "proj_prob": null,
       "market_value": 238.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 215.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 20.950421,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "60fd73164f7b0d1848f998d922155d87",
@@ -60,11 +60,11 @@
       "proj_value": 223.342648,
       "proj_prob": null,
       "market_value": 223.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 220.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": 3.342648,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "9aa9f220709533d70d11f85fae886771",
@@ -74,11 +74,11 @@
       "proj_value": 221.354638,
       "proj_prob": null,
       "market_value": 238.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 227.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -5.64536200000001,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "f08629281f1510f47d91cc408f86a2a8",
@@ -88,11 +88,11 @@
       "proj_value": 222.504014,
       "proj_prob": null,
       "market_value": 220.5,
-      "actual_value": null,
-      "result": null,
+      "actual_value": 223.0,
+      "result": "graded",
       "correct": null,
-      "error": null,
-      "graded_at": null
+      "error": -0.495985999999988,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     }
   ]
 }

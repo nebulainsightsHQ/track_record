@@ -1,0 +1,70 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "nba",
+  "market": "nba_game_ml",
+  "date_et": "2026-11-25",
+  "exported_at_utc": "2026-11-26T15:50:05.322687Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 4,
+  "graded_count": 4,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "698d6d78acf30f4ff4e4aaf6670249ee",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "LAC at MEM -- MEM win probability",
+      "proj_value": null,
+      "proj_prob": 0.749197,
+      "market_value": 0.699252,
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.250803,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    },
+    {
+      "entity_key": "87ce247fb83685389ca8ffb21be6cd3e",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "CHI at CHA -- CHA win probability",
+      "proj_value": null,
+      "proj_prob": 0.579028,
+      "market_value": 0.58056,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.579028,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    },
+    {
+      "entity_key": "9e203cbbc6d37b7b0d9c08cb89fe0b28",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "BKN at MIL -- MIL win probability",
+      "proj_value": null,
+      "proj_prob": 0.415192,
+      "market_value": 0.521739,
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": true,
+      "error": 0.415192,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    },
+    {
+      "entity_key": "e6df92326adb480e427bb7c10f445c60",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "SAC at GSW -- GSW win probability",
+      "proj_value": null,
+      "proj_prob": 0.774496,
+      "market_value": 0.695855,
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.225504,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    }
+  ]
+}

@@ -3,12 +3,12 @@
   "sport": "nba",
   "market": "nba_game_ml",
   "date_et": "2026-11-24",
-  "exported_at_utc": "2026-11-25T15:50:05.075196Z",
+  "exported_at_utc": "2026-11-26T15:50:05.408274Z",
   "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
   "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
   "row_count": 6,
-  "graded_count": 1,
-  "complete": false,
+  "graded_count": 6,
+  "complete": true,
   "rows": [
     {
       "entity_key": "07421d1675d6bc51bb5fa91f84a09eb3",
@@ -18,11 +18,11 @@
       "proj_value": null,
       "proj_prob": 0.550748,
       "market_value": 0.574234,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 0.0,
+      "result": "graded",
+      "correct": false,
+      "error": 0.550748,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "42f48a4769eab3d1472d76aac0fd0fa7",
@@ -46,11 +46,11 @@
       "proj_value": null,
       "proj_prob": 0.594205,
       "market_value": 0.591195,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.405795,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "60fd73164f7b0d1848f998d922155d87",
@@ -60,11 +60,11 @@
       "proj_value": null,
       "proj_prob": 0.695195,
       "market_value": 0.763636,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.304805,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "9aa9f220709533d70d11f85fae886771",
@@ -74,11 +74,11 @@
       "proj_value": null,
       "proj_prob": 0.366368,
       "market_value": 0.40663,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": false,
+      "error": -0.633632,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     },
     {
       "entity_key": "f08629281f1510f47d91cc408f86a2a8",
@@ -88,11 +88,11 @@
       "proj_value": null,
       "proj_prob": 0.670572,
       "market_value": 0.663648,
-      "actual_value": null,
-      "result": null,
-      "correct": null,
-      "error": null,
-      "graded_at": null
+      "actual_value": 1.0,
+      "result": "graded",
+      "correct": true,
+      "error": -0.329428,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
     }
   ]
 }

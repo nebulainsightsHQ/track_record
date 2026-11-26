@@ -1,0 +1,70 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — graded results",
+  "sport": "nba",
+  "market": "nba_game_total",
+  "date_et": "2026-11-25",
+  "exported_at_utc": "2026-11-26T15:50:05.322930Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Results for the predictions in the matching pre-game file. That file is unchanged; this one is refreshed until every row is graded.",
+  "row_count": 4,
+  "graded_count": 4,
+  "complete": true,
+  "rows": [
+    {
+      "entity_key": "698d6d78acf30f4ff4e4aaf6670249ee",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "LAC at MEM -- total points",
+      "proj_value": 225.699742,
+      "proj_prob": null,
+      "market_value": 228.75,
+      "actual_value": 212.0,
+      "result": "graded",
+      "correct": null,
+      "error": 13.699742,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    },
+    {
+      "entity_key": "87ce247fb83685389ca8ffb21be6cd3e",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "CHI at CHA -- total points",
+      "proj_value": 224.048749,
+      "proj_prob": null,
+      "market_value": 222.0,
+      "actual_value": 212.0,
+      "result": "graded",
+      "correct": null,
+      "error": 12.048749,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    },
+    {
+      "entity_key": "9e203cbbc6d37b7b0d9c08cb89fe0b28",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "BKN at MIL -- total points",
+      "proj_value": 224.527318,
+      "proj_prob": null,
+      "market_value": 232.5,
+      "actual_value": 201.0,
+      "result": "graded",
+      "correct": null,
+      "error": 23.527318,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    },
+    {
+      "entity_key": "e6df92326adb480e427bb7c10f445c60",
+      "model": "nba_game_v1",
+      "game_date": "2026-11-25",
+      "label": "SAC at GSW -- total points",
+      "proj_value": 218.982232,
+      "proj_prob": null,
+      "market_value": 217.5,
+      "actual_value": 239.0,
+      "result": "graded",
+      "correct": null,
+      "error": -20.017768,
+      "graded_at": "2026-11-26T15:20:49.708469Z"
+    }
+  ]
+}
