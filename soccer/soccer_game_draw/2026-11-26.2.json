@@ -1,0 +1,56 @@
+{
+  "ledger": "nebulainsightsHQ/track_record — daily pre-game snapshot",
+  "sport": "soccer",
+  "market": "soccer_game_draw",
+  "date_et": "2026-11-26",
+  "models": [
+    "soccer_game_v0_1_20260913"
+  ],
+  "exported_at_utc": "2026-11-26T16:20:06.872481Z",
+  "source": "public.predictions_log (Supabase) — the immutable snapshot-then-grade log behind nebulainsights.net/odds/track_record.html",
+  "note": "Predictions as logged BEFORE the games. Grading fields are null by construction here — results land in a separate <date>.graded.json in a later commit, and this file is never edited after it is committed.",
+  "row_count": 1,
+  "rows": [
+    {
+      "sport": "soccer",
+      "market": "soccer_game_draw",
+      "model": "soccer_game_v0_1_20260913",
+      "entity_key": "24b99950496c624f7124922fc1bda8bd",
+      "game_date": "2026-11-28",
+      "away": "RC Lens",
+      "home": "Angers",
+      "away_name": "Lens",
+      "home_name": "Angers",
+      "label": "RC Lens at Angers -- draw probability",
+      "proj_value": null,
+      "proj_prob": 0.214543,
+      "market_value": 0.239688743731149,
+      "actual_value": null,
+      "result": null,
+      "correct": null,
+      "error": null,
+      "projected_at": "2026-11-26T16:01:12.031672Z",
+      "graded_at": null,
+      "extra": {
+        "slot": "primary",
+        "league": "france_ligue_one",
+        "season": 2026,
+        "lead_hours": 48.25,
+        "kickoff_utc": "2026-11-28T16:15:00Z",
+        "market_p_away": 0.5403615855508558,
+        "market_p_draw": 0.23968874373114882,
+        "market_p_home": 0.2199496707179954,
+        "season_source": "derived",
+        "proj_draw_prob": 0.214543,
+        "name_resolution": "learned/learned",
+        "market_1x2_books": 3,
+        "proj_lambda_away": 2.083725,
+        "proj_lambda_home": 0.994824,
+        "proj_away_win_prob": 0.618993,
+        "proj_home_win_prob": 0.166463,
+        "market_1x2_snapshot": "2026-11-09",
+        "market_snapshot_type": "opening"
+      }
+    }
+  ]
+}
